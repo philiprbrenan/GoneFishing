@@ -4,6 +4,7 @@ app GoneFishing = Gone Fishing in the USA
   email  = bill.gearhart@ryffine.com
 
 # Details of photo Blacktip shark.JPG
+#------------------------------------
 photo Shark.Blacktip = Blacktip shark
   url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Blacktip%20shark.JPG
   maps = https://en.wikipedia.org/wiki/Blacktip_shark
@@ -15,9 +16,9 @@ fact Shark.Blacktip.4 = Forty pounds
 fact Shark.Blacktip.5 = Timid yet will attack people for food
 fact Shark.Blacktip.6 = Makes spinning leaps when attacking schools of small fish
 
-https://en.wikipedia.org/wiki/Blacktip_shark Caught in the Gulf of Mexico just
 
 # Details of photo Brown Trout.jpg
+#---------------------------------
 photo Trout.Brown = Brown Trout
   url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Brown%20Trout.jpg
   maps = https://en.wikipedia.org/wiki/Brown_trout
@@ -27,7 +28,9 @@ fact Trout.Brown.1 = Little Juniata River near Alexandria
 fact Trout.Brown.2 = Size 12 peeking caddis fly
 fact Trout.Brown.3 = Two pounds
 
+
 # Details of photo Jack Crevalle.JPG
+#-----------------------------------
 photo Jack.Crevalle = Jack Crevalle
   url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Jack%20Crevalle.JPG
   maps = https://en.wikipedia.org/wiki/Crevalle_jack
@@ -39,7 +42,9 @@ fact Jack.Crevalle.4 = Fifteen pounds
 fact Jack.Crevalle.5 = Caudal fin is strongly forked
 fact Jack.Crevalle.6 = eye is covered by a well-developed adipose eyelid
 
+
 # Details of photo Smallmouth Bass.jpg
+#-------------------------------------
 photo Bass.Smallmouth = Smallmouth Bass
   url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Smallmouth%20Bass.jpg
   maps = https://en.wikipedia.org/wiki/Smallmouth_bass
@@ -51,7 +56,9 @@ fact Bass.Smallmouth.4 = Three pounds
 fact Bass.Smallmouth.5 = Native to the Mississippi
 fact Bass.Smallmouth.6 = Transplanted through USA in buckets and barrels by rail
 
+
 # Details of photo SpeckledTrout.jpg
+#-----------------------------------
 photo Trout.Speckled = Title of SpeckledTrout.jpg
   url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/SpeckledTrout.jpg
   maps = https://en.wikipedia.org/wiki/Brown_trout
@@ -62,7 +69,9 @@ fact Trout.Speckled.3 = Six pounds
 fact Trout.Speckled.4 = Closely related to the Atlantic salmon
 fact Trout.Speckled.5 = High dietary reliance upon insects
 
+
 # Details of photo Striped Bass.jpg
+#----------------------------------
 photo Bass.Striped = Title of Striped Bass.jpg
   url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg
   maps = https://en.wikipedia.org/wiki/Striped_bass
