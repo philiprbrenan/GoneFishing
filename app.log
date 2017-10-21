@@ -1,18 +1,24 @@
 SUCCESS!
-2017-10-21 at 21:57:05 Generate AppaAppsPhotoApp version 20171021-111
+2017-10-21 at 21:17:27 Generate AppaAppsPhotoApp version 20171021-111
 
-2017-10-21 at 21:57:09 Step: parseSource
-2017-10-21 at 21:57:09 Good source file!
-2017-10-21 at 21:57:09 Step: loadAssets
-2017-10-21 at 21:57:14 Step: multiplyPhotosByFacts
-2017-10-21 at 21:57:14 Step: genJavaManifest
-2017-10-21 at 21:57:14 Step: genJsonManifest
-2017-10-21 at 21:57:14 Step: genGameHtml
-2017-10-21 at 21:57:14 Step: genHtmlAssets
-2017-10-21 at 21:57:14 Step: zipAssets
-2017-10-21 at 21:57:15 Step: compileApp
-2017-10-21 at 21:57:22 Step: copyLinksToGitHub
-2017-10-21 at 21:57:28 Step: copyFilesIntoPositionOnWebServer
+2017-10-21 at 21:17:28 Step: parseSource
+2017-10-21 at 21:17:29 Good source file!
+2017-10-21 at 21:17:29 Step: loadAssets
+2017-10-21 at 21:17:29 -rw-r--r-- 1 root root 1009867 Oct 21 21:17 /tmp/AppaAppsPhotoApp/cache/images/Blacktip%20shark.JPG
+2017-10-21 at 21:17:30 -rw-r--r-- 1 root root 1240633 Oct 21 21:17 /tmp/AppaAppsPhotoApp/cache/images/Brown%20Trout.jpg
+2017-10-21 at 21:17:31 -rw-r--r-- 1 root root 543082 Oct 21 21:17 /tmp/AppaAppsPhotoApp/cache/images/Jack%20Crevalle.JPG
+2017-10-21 at 21:17:31 -rw-r--r-- 1 root root 905258 Oct 21 21:17 /tmp/AppaAppsPhotoApp/cache/images/Smallmouth%20Bass.jpg
+2017-10-21 at 21:17:33 -rw-r--r-- 1 root root 3014832 Oct 21 21:17 /tmp/AppaAppsPhotoApp/cache/images/SpeckledTrout.jpg
+2017-10-21 at 21:17:35 -rw-r--r-- 1 root root 913198 Oct 21 21:17 /tmp/AppaAppsPhotoApp/cache/images/Striped%20Bass.jpg
+2017-10-21 at 21:26:32 Step: multiplyPhotosByFacts
+2017-10-21 at 21:26:32 Step: genJavaManifest
+2017-10-21 at 21:26:32 Step: genJsonManifest
+2017-10-21 at 21:26:32 Step: genGameHtml
+2017-10-21 at 21:26:32 Step: genHtmlAssets
+2017-10-21 at 21:26:32 Step: zipAssets
+2017-10-21 at 21:26:34 Step: compileApp
+2017-10-21 at 21:26:49 Step: copyLinksToGitHub
+2017-10-21 at 21:26:50 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -20,9 +26,10 @@ do {
       action        => "run",
       activity      => "Activity",
       buildFolder   => "/tmp/AppaAppsPhotoApp/build/",
-      buildTools    => "/home/phil/Android/sdk/build-tools/25.0.2/",
+      buildTools    => "/home/phil/Android/sdk/build-tools/25.0.3/",
       debug         => 0,
       device        => "emulator-5554",
+      editSource    => undef,
       home          => "/home/phil/AppaAppsPhotoApp/",
       icon          => "/tmp/AppaAppsPhotoApp/cache/images/Striped%20Bass.jpg",
       keyAlias      => "genApp",
@@ -31,14 +38,13 @@ do {
       libs          => [],
       log           => [
                          "",
+                         "warning: [options] bootstrap class path not set in conjunction with -source 1.7\n1 warning",
                          "",
                          "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
                          "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
-                         "Success",
-                         "Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appaapps.photoapp.gonefishing/.Activity }",
                        ],
       package       => "com.appaapps.photoapp.gonefishing",
       parameters    => "http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/gonefishing.zip",
@@ -54,23 +60,23 @@ do {
       platformTools => "/home/phil/Android/sdk/platform-tools/",
       sdkLevels     => [15, 25],
       src           => [
-                         "/home/phil/z/java/appState/AppState.java",
-                         "/home/phil/z/java/choices/Choices.java",
-                         "/home/phil/z/java/coloursTransformed/ColoursTransformed.java",
-                         "/home/phil/z/java/download/File.java",
-                         "/home/phil/z/java/fourier/Fourier.java",
-                         "/home/phil/z/java/gradients/Gradients.java",
-                         "/home/phil/z/java/download/Url.java",
-                         "/home/phil/z/java/log/Log.java",
-                         "/home/phil/z/java/maths/Maths.java",
-                         "/home/phil/z/java/randomChoice/RandomChoice.java",
-                         "/home/phil/z/java/save/Save.java",
-                         "/home/phil/z/java/sound/Midi.java",
-                         "/home/phil/z/java/sound/Sound.java",
-                         "/home/phil/z/java/sound/Speech.java",
-                         "/home/phil/z/java/svg/Svg.java",
-                         "/home/phil/z/java/unpackappdescription/Unpackappdescription.java",
-                         "/home/phil/z/java/unzip/Unzip.java",
+                         "/home/phil/java/appState/AppState.java",
+                         "/home/phil/java/choices/Choices.java",
+                         "/home/phil/java/coloursTransformed/ColoursTransformed.java",
+                         "/home/phil/java/download/File.java",
+                         "/home/phil/java/fourier/Fourier.java",
+                         "/home/phil/java/gradients/Gradients.java",
+                         "/home/phil/java/download/Url.java",
+                         "/home/phil/java/log/Log.java",
+                         "/home/phil/java/maths/Maths.java",
+                         "/home/phil/java/randomChoice/RandomChoice.java",
+                         "/home/phil/java/save/Save.java",
+                         "/home/phil/java/sound/Midi.java",
+                         "/home/phil/java/sound/Sound.java",
+                         "/home/phil/java/sound/Speech.java",
+                         "/home/phil/java/svg/Svg.java",
+                         "/home/phil/java/unpackappdescription/Unpackappdescription.java",
+                         "/home/phil/java/unzip/Unzip.java",
                        ],
       title         => "Gone Fishing in the USA",
       version       => 20171021,
@@ -98,19 +104,25 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/Striped%20Bass.jpg",
     log => [
-      "2017-10-21 at 21:57:05 Generate AppaAppsPhotoApp version 20171021-111\n",
-      "2017-10-21 at 21:57:09 Step: parseSource",
-      "2017-10-21 at 21:57:09 Good source file!",
-      "2017-10-21 at 21:57:09 Step: loadAssets",
-      "2017-10-21 at 21:57:14 Step: multiplyPhotosByFacts",
-      "2017-10-21 at 21:57:14 Step: genJavaManifest",
-      "2017-10-21 at 21:57:14 Step: genJsonManifest",
-      "2017-10-21 at 21:57:14 Step: genGameHtml",
-      "2017-10-21 at 21:57:14 Step: genHtmlAssets",
-      "2017-10-21 at 21:57:14 Step: zipAssets",
-      "2017-10-21 at 21:57:15 Step: compileApp",
-      "2017-10-21 at 21:57:22 Step: copyLinksToGitHub",
-      "2017-10-21 at 21:57:28 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-21 at 21:17:27 Generate AppaAppsPhotoApp version 20171021-111\n",
+      "2017-10-21 at 21:17:28 Step: parseSource",
+      "2017-10-21 at 21:17:29 Good source file!",
+      "2017-10-21 at 21:17:29 Step: loadAssets",
+      "2017-10-21 at 21:17:29 -rw-r--r-- 1 root root 1009867 Oct 21 21:17 /tmp/AppaAppsPhotoApp/cache/images/Blacktip%20shark.JPG",
+      "2017-10-21 at 21:17:30 -rw-r--r-- 1 root root 1240633 Oct 21 21:17 /tmp/AppaAppsPhotoApp/cache/images/Brown%20Trout.jpg",
+      "2017-10-21 at 21:17:31 -rw-r--r-- 1 root root 543082 Oct 21 21:17 /tmp/AppaAppsPhotoApp/cache/images/Jack%20Crevalle.JPG",
+      "2017-10-21 at 21:17:31 -rw-r--r-- 1 root root 905258 Oct 21 21:17 /tmp/AppaAppsPhotoApp/cache/images/Smallmouth%20Bass.jpg",
+      "2017-10-21 at 21:17:33 -rw-r--r-- 1 root root 3014832 Oct 21 21:17 /tmp/AppaAppsPhotoApp/cache/images/SpeckledTrout.jpg",
+      "2017-10-21 at 21:17:35 -rw-r--r-- 1 root root 913198 Oct 21 21:17 /tmp/AppaAppsPhotoApp/cache/images/Striped%20Bass.jpg",
+      "2017-10-21 at 21:26:32 Step: multiplyPhotosByFacts",
+      "2017-10-21 at 21:26:32 Step: genJavaManifest",
+      "2017-10-21 at 21:26:32 Step: genJsonManifest",
+      "2017-10-21 at 21:26:32 Step: genGameHtml",
+      "2017-10-21 at 21:26:32 Step: genHtmlAssets",
+      "2017-10-21 at 21:26:32 Step: zipAssets",
+      "2017-10-21 at 21:26:34 Step: compileApp",
+      "2017-10-21 at 21:26:49 Step: copyLinksToGitHub",
+      "2017-10-21 at 21:26:50 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
@@ -962,8 +974,8 @@ do {
         titleFile => undef,
       }, "ParsedCmd"),
     ],
-    source => "app GoneFishing = Gone Fishing in the USA\n  icon   = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg\n  author = Bill Gearhart\n  email  = bill.gearhart\@ryffine.com\n\n# Details of photo Blacktip shark\n#------------------------------------\nphoto Shark.Blacktip = Blacktip shark\n  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Blacktip%20shark.JPG\n  maps = https://en.wikipedia.org/wiki/Blacktip_shark\n\nfact Shark.Blacktip.1 = Carcharhinus limbatus\nfact Shark.Blacktip.2 = Galveston\nfact Shark.Blacktip.3 = Drifting a dead menhaden\nfact Shark.Blacktip.4 = Forty pounds\nfact Shark.Blacktip.5 = Timid yet will attack people for food\nfact Shark.Blacktip.6 = Makes spinning leaps when attacking schools of small fish\n\n\n# Details of photo Brown Trout.jpg\n#---------------------------------\nphoto Trout.Brown = Brown Trout\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Brown%20Trout.jpg\n  maps = https://en.wikipedia.org/wiki/Brown_trout\n\nfact Trout         = Salmo trutta\nfact Trout.Brown.1 = Little Juniata River near Alexandria\nfact Trout.Brown.2 = Size 12 peeking caddis fly\nfact Trout.Brown.3 = Two pounds\n\n\n# Details of photo Jack Crevalle.JPG\n#-----------------------------------\nphoto Jack.Crevalle = Jack Crevalle\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Jack%20Crevalle.JPG\n  maps = https://en.wikipedia.org/wiki/Crevalle_jack\n\nfact Jack.Crevalle.1 = Caranx hippos\nfact Jack.Crevalle.2 = Galveston\nfact Jack.Crevalle.3 = Caught drifting a dead menhaden\nfact Jack.Crevalle.4 = Fifteen pounds\nfact Jack.Crevalle.5 = Caudal fin is strongly forked\nfact Jack.Crevalle.6 = eye is covered by a well-developed adipose eyelid\n\n\n# Details of photo Smallmouth Bass.jpg\n#-------------------------------------\nphoto Bass.Smallmouth = Smallmouth Bass\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Smallmouth%20Bass.jpg\n  maps = https://en.wikipedia.org/wiki/Smallmouth_bass\n\nfact Bass.Smallmouth.1 = Micropterus dolomieu\nfact Bass.Smallmouth.2 = Allegheny River at Tionesta\nfact Bass.Smallmouth.3 = Jerk bait\nfact Bass.Smallmouth.4 = Three pounds\nfact Bass.Smallmouth.5 = Native to the Mississippi\nfact Bass.Smallmouth.6 = Transplanted through USA in buckets and barrels by rail\n\n\n# Details of photo SpeckledTrout.jpg\n#-----------------------------------\nphoto Trout.Speckled = Speckled Trout\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/SpeckledTrout.jpg\n  maps = https://en.wikipedia.org/wiki/Brown_trout\n\nfact Trout.Speckled.1 = South Platte River near Lake George\nfact Trout.Speckled.2 = Size 20 rs2 fly\nfact Trout.Speckled.3 = Six pounds\nfact Trout.Speckled.4 = Closely related to the Atlantic salmon\nfact Trout.Speckled.5 = High dietary reliance upon insects\n\n\n# Details of photo Striped Bass.jpg\n#----------------------------------\nphoto Bass.Striped = Striped Bass\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg\n  maps = https://en.wikipedia.org/wiki/Striped_bass\n\nfact Bass.Striped.1 = Morone saxatilis\nfact Bass.Striped.2 = Chesapeake Bay\nfact Bass.Striped.3 = Plastic shad on a lead head\nfact Bass.Striped.4 = Twenty pounds\nfact Bass.Striped.5 = State fish of Maryland\nfact Bass.Striped.6 = Landlocked in the Grand Lake, Nova Scotia\n",
-    sourceFileSha => "03edd19a42faa87677729891083f1b4943e128ab",
+    source => "app GoneFishing = Gone Fishing in the USA\n  icon   = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg\n  author = Bill Gearhart\n  email  = bill.gearhart\@ryffine.com\n\n# Details of photo Blacktip shark 1\n#------------------------------------\nphoto Shark.Blacktip = Blacktip shark\n  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Blacktip%20shark.JPG\n  maps = https://en.wikipedia.org/wiki/Blacktip_shark\n\nfact Shark.Blacktip.1 = Carcharhinus limbatus\nfact Shark.Blacktip.2 = Galveston\nfact Shark.Blacktip.3 = Drifting a dead menhaden\nfact Shark.Blacktip.4 = Forty pounds\nfact Shark.Blacktip.5 = Timid yet will attack people for food\nfact Shark.Blacktip.6 = Makes spinning leaps when attacking schools of small fish\n\n\n# Details of photo Brown Trout.jpg\n#---------------------------------\nphoto Trout.Brown = Brown Trout\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Brown%20Trout.jpg\n  maps = https://en.wikipedia.org/wiki/Brown_trout\n\nfact Trout         = Salmo trutta\nfact Trout.Brown.1 = Little Juniata River near Alexandria\nfact Trout.Brown.2 = Size 12 peeking caddis fly\nfact Trout.Brown.3 = Two pounds\n\n\n# Details of photo Jack Crevalle.JPG\n#-----------------------------------\nphoto Jack.Crevalle = Jack Crevalle\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Jack%20Crevalle.JPG\n  maps = https://en.wikipedia.org/wiki/Crevalle_jack\n\nfact Jack.Crevalle.1 = Caranx hippos\nfact Jack.Crevalle.2 = Galveston\nfact Jack.Crevalle.3 = Caught drifting a dead menhaden\nfact Jack.Crevalle.4 = Fifteen pounds\nfact Jack.Crevalle.5 = Caudal fin is strongly forked\nfact Jack.Crevalle.6 = eye is covered by a well-developed adipose eyelid\n\n\n# Details of photo Smallmouth Bass.jpg\n#-------------------------------------\nphoto Bass.Smallmouth = Smallmouth Bass\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Smallmouth%20Bass.jpg\n  maps = https://en.wikipedia.org/wiki/Smallmouth_bass\n\nfact Bass.Smallmouth.1 = Micropterus dolomieu\nfact Bass.Smallmouth.2 = Allegheny River at Tionesta\nfact Bass.Smallmouth.3 = Jerk bait\nfact Bass.Smallmouth.4 = Three pounds\nfact Bass.Smallmouth.5 = Native to the Mississippi\nfact Bass.Smallmouth.6 = Transplanted through USA in buckets and barrels by rail\n\n\n# Details of photo SpeckledTrout.jpg\n#-----------------------------------\nphoto Trout.Speckled = Speckled Trout\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/SpeckledTrout.jpg\n  maps = https://en.wikipedia.org/wiki/Brown_trout\n\nfact Trout.Speckled.1 = South Platte River near Lake George\nfact Trout.Speckled.2 = Size 20 rs2 fly\nfact Trout.Speckled.3 = Six pounds\nfact Trout.Speckled.4 = Closely related to the Atlantic salmon\nfact Trout.Speckled.5 = High dietary reliance upon insects\n\n\n# Details of photo Striped Bass.jpg\n#----------------------------------\nphoto Bass.Striped = Striped Bass\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg\n  maps = https://en.wikipedia.org/wiki/Striped_bass\n\nfact Bass.Striped.1 = Morone saxatilis\nfact Bass.Striped.2 = Chesapeake Bay\nfact Bass.Striped.3 = Plastic shad on a lead head\nfact Bass.Striped.4 = Twenty pounds\nfact Bass.Striped.5 = State fish of Maryland\nfact Bass.Striped.6 = Landlocked in the Grand Lake, Nova Scotia\n",
+    sourceFileSha => "9452a76b8b1296d73a70225519c0c10f41502eb6",
     step => "completed",
   }, "Manifest");
   $a->{parsedCmds}[0] = $a->{app};
