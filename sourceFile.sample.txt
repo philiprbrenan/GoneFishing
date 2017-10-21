@@ -12,3 +12,51 @@ photo AddImagesToThisFolder = Title of AddImagesToThisFolder
 fact AddImagesToThisFolder.1 = First fact about AddImagesToThisFolder
 fact AddImagesToThisFolder.2 = Another fact about AddImagesToThisFolder
 
+
+# Details of photo Blacktip shark.JPG
+photo Blacktip shark.JPG = Title of Blacktip shark.JPG
+  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Blacktip%20shark.JPG
+
+fact Blacktip shark.JPG.1 = First fact about Blacktip shark.JPG
+fact Blacktip shark.JPG.2 = Another fact about Blacktip shark.JPG
+
+
+# Details of photo Brown Trout.jpg
+photo Brown Trout.jpg = Title of Brown Trout.jpg
+  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Brown%20Trout.jpg
+
+fact Brown Trout.jpg.1 = First fact about Brown Trout.jpg
+fact Brown Trout.jpg.2 = Another fact about Brown Trout.jpg
+
+
+# Details of photo Jack Crevalle.JPG
+photo Jack Crevalle.JPG = Title of Jack Crevalle.JPG
+  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Jack%20Crevalle.JPG
+
+fact Jack Crevalle.JPG.1 = First fact about Jack Crevalle.JPG
+fact Jack Crevalle.JPG.2 = Another fact about Jack Crevalle.JPG
+
+
+# Details of photo Smallmouth Bass.jpg
+photo Smallmouth Bass.jpg = Title of Smallmouth Bass.jpg
+  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Smallmouth%20Bass.jpg
+
+fact Smallmouth Bass.jpg.1 = First fact about Smallmouth Bass.jpg
+fact Smallmouth Bass.jpg.2 = Another fact about Smallmouth Bass.jpg
+
+
+# Details of photo SpeckledTrout.jpg
+photo SpeckledTrout.jpg = Title of SpeckledTrout.jpg
+  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/SpeckledTrout.jpg
+
+fact SpeckledTrout.jpg.1 = First fact about SpeckledTrout.jpg
+fact SpeckledTrout.jpg.2 = Another fact about SpeckledTrout.jpg
+
+
+# Details of photo Striped Bass.jpg
+photo Striped Bass.jpg = Title of Striped Bass.jpg
+  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg
+
+fact Striped Bass.jpg.1 = First fact about Striped Bass.jpg
+fact Striped Bass.jpg.2 = Another fact about Striped Bass.jpg
+
