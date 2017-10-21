@@ -6,7 +6,7 @@ app GoneFishing = Gone Fishing in the USA
 # Details of photo Blacktip shark.JPG
 photo Shark.Blacktip = Blacktip shark
   url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Blacktip%20shark.JPG
-  wiki = https://en.wikipedia.org/wiki/Blacktip_shark
+  maps = https://en.wikipedia.org/wiki/Blacktip_shark
 
 fact Shark.Blacktip.1 = Carcharhinus limbatus
 fact Shark.Blacktip.2 = Galveston
