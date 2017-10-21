@@ -1,0 +1,14 @@
+app GoneFishing   = Gone Fishing in the USA 
+  maximages = 6
+  icon      = https://avatars1.githubusercontent.com/u/7548378?v=4
+  author    = philiprbrenan
+  email     = philiprbrenan@gmail.com
+
+
+# Details of photo AddImagesToThisFolder
+photo AddImagesToThisFolder = Title of AddImagesToThisFolder
+  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/AddImagesToThisFolder
+
+fact AddImagesToThisFolder.1 = First fact about AddImagesToThisFolder
+fact AddImagesToThisFolder.2 = Another fact about AddImagesToThisFolder
+
