@@ -1,7 +1,7 @@
 app GoneFishing = Gone Fishing in the USA
   icon   = https://avatars1.githubusercontent.com/u/7548378?v=4
   author = Bill Gearhart
-  email = bill.gearhart@ryffine.com
+  email  = bill.gearhart@ryffine.com
 
 # Details of photo Blacktip shark.JPG
 photo Shark.Blacktip = Blacktip shark
@@ -19,8 +19,8 @@ https://en.wikipedia.org/wiki/Blacktip_shark Caught in the Gulf of Mexico just
 
 # Details of photo Brown Trout.jpg
 photo Trout.Brown = Brown Trout
-  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Brown%20Trout.jpg
-  wiki = https://en.wikipedia.org/wiki/Brown_trout
+  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Brown%20Trout.jpg
+  maps = https://en.wikipedia.org/wiki/Brown_trout
 
 fact Trout         = Salmo trutta
 fact Trout.Brown.1 = Little Juniata River near Alexandria
@@ -29,8 +29,8 @@ fact Trout.Brown.3 = Two pounds
 
 # Details of photo Jack Crevalle.JPG
 photo Jack.Crevalle = Jack Crevalle
-  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Jack%20Crevalle.JPG
-  wiki = https://en.wikipedia.org/wiki/Crevalle_jack
+  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Jack%20Crevalle.JPG
+  maps = https://en.wikipedia.org/wiki/Crevalle_jack
 
 fact Jack.Crevalle.1 = Caranx hippos
 fact Jack.Crevalle.2 = Galveston
@@ -41,8 +41,8 @@ fact Jack.Crevalle.6 = eye is covered by a well-developed adipose eyelid
 
 # Details of photo Smallmouth Bass.jpg
 photo Bass.Smallmouth = Smallmouth Bass
-  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Smallmouth%20Bass.jpg
-  wiki = https://en.wikipedia.org/wiki/Smallmouth_bass
+  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Smallmouth%20Bass.jpg
+  maps = https://en.wikipedia.org/wiki/Smallmouth_bass
 
 fact Bass.Smallmouth.1 = Micropterus dolomieu
 fact Bass.Smallmouth.2 = Allegheny River at Tionesta
@@ -53,8 +53,8 @@ fact Bass.Smallmouth.6 = Transplanted through USA in buckets and barrels by rail
 
 # Details of photo SpeckledTrout.jpg
 photo Trout.Speckled = Title of SpeckledTrout.jpg
-  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/SpeckledTrout.jpg
-  wiki = https://en.wikipedia.org/wiki/Brown_trout
+  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/SpeckledTrout.jpg
+  maps = https://en.wikipedia.org/wiki/Brown_trout
 
 fact Trout.Speckled.1 = South Platte River near Lake George
 fact Trout.Speckled.2 = Size 20 rs2 fly
@@ -64,8 +64,8 @@ fact Trout.Speckled.5 = High dietary reliance upon insects
 
 # Details of photo Striped Bass.jpg
 photo Bass.Striped = Title of Striped Bass.jpg
-  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg
-  wiki = https://en.wikipedia.org/wiki/Striped_bass
+  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg
+  maps = https://en.wikipedia.org/wiki/Striped_bass
 
 fact Bass.Striped.1 = Morone saxatilis
 fact Bass.Striped.2 = Chesapeake Bay
