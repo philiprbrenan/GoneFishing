@@ -1,5 +1,5 @@
 app GoneFishing = Gone Fishing in the USA
-  icon   = https://avatars1.githubusercontent.com/u/7548378?v=4
+  icon   = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg
   author = Bill Gearhart
   email  = bill.gearhart@ryffine.com
 
