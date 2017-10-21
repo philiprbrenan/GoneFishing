@@ -59,7 +59,7 @@ fact Bass.Smallmouth.6 = Transplanted through USA in buckets and barrels by rail
 
 # Details of photo SpeckledTrout.jpg
 #-----------------------------------
-photo Trout.Speckled = Title of SpeckledTrout.jpg
+photo Trout.Speckled = Speckled Trout
   url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/SpeckledTrout.jpg
   maps = https://en.wikipedia.org/wiki/Brown_trout
 
@@ -72,7 +72,7 @@ fact Trout.Speckled.5 = High dietary reliance upon insects
 
 # Details of photo Striped Bass.jpg
 #----------------------------------
-photo Bass.Striped = Title of Striped Bass.jpg
+photo Bass.Striped = Striped Bass
   url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg
   maps = https://en.wikipedia.org/wiki/Striped_bass
 
