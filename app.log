@@ -1,18 +1,18 @@
 SUCCESS!
-2017-10-21 at 21:47:07 Generate AppaAppsPhotoApp version 20171021-222
-["philiprbrenan/GoneFishing"]
-2017-10-21 at 21:47:09 Step: parseSource
-2017-10-21 at 21:47:09 Good source file!
-2017-10-21 at 21:47:09 Step: loadAssets
-2017-10-21 at 21:47:16 Step: multiplyPhotosByFacts
-2017-10-21 at 21:47:16 Step: genJavaManifest
-2017-10-21 at 21:47:16 Step: genJsonManifest
-2017-10-21 at 21:47:16 Step: genGameHtml
-2017-10-21 at 21:47:16 Step: genHtmlAssets
-2017-10-21 at 21:47:16 Step: zipAssets
-2017-10-21 at 21:47:17 Step: compileApp
-2017-10-21 at 21:47:30 Step: copyLinksToGitHub
-2017-10-21 at 21:47:32 Step: copyFilesIntoPositionOnWebServer
+2017-10-22 at 19:50:44 Generate AppaAppsPhotoApp version 20171021-222
+
+2017-10-22 at 19:50:54 Step: parseSource
+2017-10-22 at 19:50:54 Good source file!
+2017-10-22 at 19:50:54 Step: loadAssets
+2017-10-22 at 19:50:59 Step: multiplyPhotosByFacts
+2017-10-22 at 19:50:59 Step: genJavaManifest
+2017-10-22 at 19:50:59 Step: genJsonManifest
+2017-10-22 at 19:50:59 Step: genGameHtml
+2017-10-22 at 19:50:59 Step: genHtmlAssets
+2017-10-22 at 19:50:59 Step: zipAssets
+2017-10-22 at 19:51:00 Step: compileApp
+2017-10-22 at 19:51:05 Step: copyLinksToGitHub
+2017-10-22 at 19:51:10 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -20,11 +20,10 @@ do {
       action        => "run",
       activity      => "Activity",
       buildFolder   => "/tmp/AppaAppsPhotoApp/build/",
-      buildTools    => "/home/phil/Android/sdk/build-tools/25.0.3/",
+      buildTools    => "/home/phil/Android/sdk/build-tools/25.0.2/",
       debug         => 0,
       device        => "emulator-5554",
-      editSource    => undef,
-      home          => "/",
+      home          => "/home/phil/AppaAppsPhotoApp/",
       icon          => "/tmp/AppaAppsPhotoApp/cache/images/Striped%20Bass.jpg",
       keyAlias      => "genApp",
       keyStoreFile  => "/home/phil/AppaAppsPhotoApp/keys/genApp.keystore",
@@ -32,13 +31,14 @@ do {
       libs          => [],
       log           => [
                          "",
-                         "warning: [options] bootstrap class path not set in conjunction with -source 1.7\n1 warning",
                          "",
-                         "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "libpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
                          "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
+                         "Success",
+                         "Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appaapps.photoapp.gonefishing/.Activity }",
                        ],
       package       => "com.appaapps.photoapp.gonefishing",
       parameters    => "http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/gonefishing.zip",
@@ -54,26 +54,26 @@ do {
       platformTools => "/home/phil/Android/sdk/platform-tools/",
       sdkLevels     => [15, 25],
       src           => [
-                         "/home/phil/java/appState/AppState.java",
-                         "/home/phil/java/choices/Choices.java",
-                         "/home/phil/java/coloursTransformed/ColoursTransformed.java",
-                         "/home/phil/java/download/File.java",
-                         "/home/phil/java/fourier/Fourier.java",
-                         "/home/phil/java/gradients/Gradients.java",
-                         "/home/phil/java/download/Url.java",
-                         "/home/phil/java/log/Log.java",
-                         "/home/phil/java/maths/Maths.java",
-                         "/home/phil/java/randomChoice/RandomChoice.java",
-                         "/home/phil/java/save/Save.java",
-                         "/home/phil/java/sound/Midi.java",
-                         "/home/phil/java/sound/Sound.java",
-                         "/home/phil/java/sound/Speech.java",
-                         "/home/phil/java/svg/Svg.java",
-                         "/home/phil/java/unpackappdescription/Unpackappdescription.java",
-                         "/home/phil/java/unzip/Unzip.java",
+                         "/home/phil/z/java/appState/AppState.java",
+                         "/home/phil/z/java/choices/Choices.java",
+                         "/home/phil/z/java/coloursTransformed/ColoursTransformed.java",
+                         "/home/phil/z/java/download/File.java",
+                         "/home/phil/z/java/fourier/Fourier.java",
+                         "/home/phil/z/java/gradients/Gradients.java",
+                         "/home/phil/z/java/download/Url.java",
+                         "/home/phil/z/java/log/Log.java",
+                         "/home/phil/z/java/maths/Maths.java",
+                         "/home/phil/z/java/randomChoice/RandomChoice.java",
+                         "/home/phil/z/java/save/Save.java",
+                         "/home/phil/z/java/sound/Midi.java",
+                         "/home/phil/z/java/sound/Sound.java",
+                         "/home/phil/z/java/sound/Speech.java",
+                         "/home/phil/z/java/svg/Svg.java",
+                         "/home/phil/z/java/unpackappdescription/Unpackappdescription.java",
+                         "/home/phil/z/java/unzip/Unzip.java",
                        ],
       title         => "Gone Fishing in the USA",
-      version       => 20171021,
+      version       => 20171022,
     }, "Android::Build"),
     app => bless({
       cmd => "app",
@@ -98,19 +98,19 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/Striped%20Bass.jpg",
     log => [
-      "2017-10-21 at 21:47:07 Generate AppaAppsPhotoApp version 20171021-222\n[\"philiprbrenan/GoneFishing\"]",
-      "2017-10-21 at 21:47:09 Step: parseSource",
-      "2017-10-21 at 21:47:09 Good source file!",
-      "2017-10-21 at 21:47:09 Step: loadAssets",
-      "2017-10-21 at 21:47:16 Step: multiplyPhotosByFacts",
-      "2017-10-21 at 21:47:16 Step: genJavaManifest",
-      "2017-10-21 at 21:47:16 Step: genJsonManifest",
-      "2017-10-21 at 21:47:16 Step: genGameHtml",
-      "2017-10-21 at 21:47:16 Step: genHtmlAssets",
-      "2017-10-21 at 21:47:16 Step: zipAssets",
-      "2017-10-21 at 21:47:17 Step: compileApp",
-      "2017-10-21 at 21:47:30 Step: copyLinksToGitHub",
-      "2017-10-21 at 21:47:32 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-22 at 19:50:44 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-22 at 19:50:54 Step: parseSource",
+      "2017-10-22 at 19:50:54 Good source file!",
+      "2017-10-22 at 19:50:54 Step: loadAssets",
+      "2017-10-22 at 19:50:59 Step: multiplyPhotosByFacts",
+      "2017-10-22 at 19:50:59 Step: genJavaManifest",
+      "2017-10-22 at 19:50:59 Step: genJsonManifest",
+      "2017-10-22 at 19:50:59 Step: genGameHtml",
+      "2017-10-22 at 19:50:59 Step: genHtmlAssets",
+      "2017-10-22 at 19:50:59 Step: zipAssets",
+      "2017-10-22 at 19:51:00 Step: compileApp",
+      "2017-10-22 at 19:51:05 Step: copyLinksToGitHub",
+      "2017-10-22 at 19:51:10 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
