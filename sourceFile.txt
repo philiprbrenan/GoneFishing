@@ -1,4 +1,4 @@
-app GoneFishing = Gone Fishing in the USA 3
+app GoneFishing = Gone Fishing in the USA 4
   icon   = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg
   author = philiprbrenan
   email  = bill.gearhart@ryffine.com
