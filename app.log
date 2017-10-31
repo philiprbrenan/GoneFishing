@@ -1,18 +1,27 @@
-SUCCESS!
-2017-10-31 at 00:08:48 Generate AppaAppsPhotoApp version 20171021-222
+Failed.
+2017-10-31 at 00:18:13 Generate AppaAppsPhotoApp version 20171021-222
 ["philiprbrenan/GoneFishing"]
-2017-10-31 at 00:08:49 Step: parseSource
-2017-10-31 at 00:08:49 Good source file!
-2017-10-31 at 00:08:50 Step: loadAssets
-2017-10-31 at 00:08:56 Step: multiplyPhotosByFacts
-2017-10-31 at 00:08:56 Step: genJavaManifest
-2017-10-31 at 00:08:56 Step: genJsonManifest
-2017-10-31 at 00:08:56 Step: genGameHtml
-2017-10-31 at 00:08:56 Step: genHtmlAssets
-2017-10-31 at 00:08:56 Step: zipAssets
-2017-10-31 at 00:08:57 Step: compileApp
-2017-10-31 at 00:09:11 Step: copyLinksToGitHub
-2017-10-31 at 00:09:12 Step: copyFilesIntoPositionOnWebServer
+2017-10-31 at 00:18:15 Step: parseSource
+2017-10-31 at 00:18:15 Good source file!
+2017-10-31 at 00:18:15 Step: loadAssets
+2017-10-31 at 00:18:21 Step: multiplyPhotosByFacts
+2017-10-31 at 00:18:21 Step: genJavaManifest
+2017-10-31 at 00:18:21 Step: genJsonManifest
+2017-10-31 at 00:18:21 Step: genGameHtml
+2017-10-31 at 00:18:21 Step: genHtmlAssets
+2017-10-31 at 00:18:21 Step: zipAssets
+2017-10-31 at 00:18:22 Step: copyFilesIntoPositionOnWebServer
+2017-10-31 at 00:18:22 Step: compileApp
+2017-10-31 at 00:18:28 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/GoneFishing.apk in build folder:
+/tmp/AppaAppsPhotoApp/users/philiprbrenan/GoneFishing/
+Java errors
+ at /usr/local/share/perl/5.22.1/Android/Build.pm line 478.
+	Android::Build::make(Android::Build=HASH(0x2eea3f0)) called at /usr/local/share/perl/5.22.1/Android/Build.pm line 572
+	Android::Build::compile(Android::Build=HASH(0x2eea3f0)) called at /usr/bin/AppaAppsPhotoApp.pl line 2009
+	eval {...} called at /usr/bin/AppaAppsPhotoApp.pl line 2009
+	Manifest::compileApp(Manifest=HASH(0x2e57068)) called at /usr/bin/AppaAppsPhotoApp.pl line 462
+	main::genApplicationDescriptionFromSourceFile() called at /usr/bin/AppaAppsPhotoApp.pl line 2139
+
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -32,16 +41,10 @@ do {
       libs          => [],
       log           => [
                          "",
-                         "warning: [options] bootstrap class path not set in conjunction with -source 1.7\n1 warning",
-                         "",
-                         "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
-                         "",
-                         "",
-                         "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
-                         "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
+                         "warning: [options] bootstrap class path not set in conjunction with -source 1.7\n/tmp/AppaAppsPhotoApp/build/src/com/appaapps/Email.java:52: error: not an enclosing class: Activity\n                for(String s: Activity.this.fileList()) say(s);\n                                      ^\n1 error\n1 warning",
                        ],
-      package       => "com.appaapps.photoapp.gonefishing",
-      parameters    => "http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/gonefishing.zip",
+      package       => "com.appaapps.photoapp.GoneFishing",
+      parameters    => "philiprbrenan,GoneFishing,http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/GoneFishing.zip",
       permissions   => [
                          "INTERNET",
                          "ACCESS_WIFI_STATE",
@@ -49,6 +52,7 @@ do {
                          "WRITE_EXTERNAL_STORAGE",
                          "READ_EXTERNAL_STORAGE",
                          "RECEIVE_BOOT_COMPLETED",
+                         "READ_CONTACTS",
                        ],
       platform      => "/home/phil/Android/sdk/platforms/android-25/",
       platformTools => "/home/phil/Android/sdk/platform-tools/",
@@ -58,6 +62,7 @@ do {
                          "/home/phil/java/choices/Choices.java",
                          "/home/phil/java/coloursTransformed/ColoursTransformed.java",
                          "/home/phil/java/download/File.java",
+                         "/home/phil/java/email/Email.java",
                          "/home/phil/java/fourier/Fourier.java",
                          "/home/phil/java/gradients/Gradients.java",
                          "/home/phil/java/download/Url.java",
@@ -72,14 +77,14 @@ do {
                          "/home/phil/java/unpackappdescription/Unpackappdescription.java",
                          "/home/phil/java/unzip/Unzip.java",
                        ],
-      title         => "Gone Fishing in the USA",
+      title         => "Gone Fishing in the USA 2",
       version       => 20171031,
     }, "Android::Build"),
     app => bless({
       cmd => "app",
       end => 4,
       index => 0,
-      name => "gonefishing",
+      name => "GoneFishing",
       parsedKeys => bless({
         author    => "philiprbrenan",
         cmd       => "app",
@@ -87,30 +92,30 @@ do {
         icon      => "https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg",
         language  => "en",
         maximages => 2,
-        name      => "gonefishing",
+        name      => "GoneFishing",
         speakers  => "Amy Brian Emma Geraint Ivy Joanna Joey Justin Kendra Kimberly Nicole Raveena Russell Salli",
-        title     => "Gone Fishing in the USA",
+        title     => "Gone Fishing in the USA 2",
       }, "ParsedKeys"),
       start => 1,
-      title => "Gone Fishing in the USA",
+      title => "Gone Fishing in the USA 2",
       titleFile => undef,
     }, "ParsedCmd"),
-    error => undef,
+    error => 1,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/Striped%20Bass.jpg",
     log => [
-      "2017-10-31 at 00:08:48 Generate AppaAppsPhotoApp version 20171021-222\n[\"philiprbrenan/GoneFishing\"]",
-      "2017-10-31 at 00:08:49 Step: parseSource",
-      "2017-10-31 at 00:08:49 Good source file!",
-      "2017-10-31 at 00:08:50 Step: loadAssets",
-      "2017-10-31 at 00:08:56 Step: multiplyPhotosByFacts",
-      "2017-10-31 at 00:08:56 Step: genJavaManifest",
-      "2017-10-31 at 00:08:56 Step: genJsonManifest",
-      "2017-10-31 at 00:08:56 Step: genGameHtml",
-      "2017-10-31 at 00:08:56 Step: genHtmlAssets",
-      "2017-10-31 at 00:08:56 Step: zipAssets",
-      "2017-10-31 at 00:08:57 Step: compileApp",
-      "2017-10-31 at 00:09:11 Step: copyLinksToGitHub",
-      "2017-10-31 at 00:09:12 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-31 at 00:18:13 Generate AppaAppsPhotoApp version 20171021-222\n[\"philiprbrenan/GoneFishing\"]",
+      "2017-10-31 at 00:18:15 Step: parseSource",
+      "2017-10-31 at 00:18:15 Good source file!",
+      "2017-10-31 at 00:18:15 Step: loadAssets",
+      "2017-10-31 at 00:18:21 Step: multiplyPhotosByFacts",
+      "2017-10-31 at 00:18:21 Step: genJavaManifest",
+      "2017-10-31 at 00:18:21 Step: genJsonManifest",
+      "2017-10-31 at 00:18:21 Step: genGameHtml",
+      "2017-10-31 at 00:18:21 Step: genHtmlAssets",
+      "2017-10-31 at 00:18:21 Step: zipAssets",
+      "2017-10-31 at 00:18:22 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-31 at 00:18:22 Step: compileApp",
+      "2017-10-31 at 00:18:28 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/GoneFishing.apk in build folder:\n/tmp/AppaAppsPhotoApp/users/philiprbrenan/GoneFishing/\nJava errors\n at /usr/local/share/perl/5.22.1/Android/Build.pm line 478.\n\tAndroid::Build::make(Android::Build=HASH(0x2eea3f0)) called at /usr/local/share/perl/5.22.1/Android/Build.pm line 572\n\tAndroid::Build::compile(Android::Build=HASH(0x2eea3f0)) called at /usr/bin/AppaAppsPhotoApp.pl line 2009\n\teval {...} called at /usr/bin/AppaAppsPhotoApp.pl line 2009\n\tManifest::compileApp(Manifest=HASH(0x2e57068)) called at /usr/bin/AppaAppsPhotoApp.pl line 462\n\tmain::genApplicationDescriptionFromSourceFile() called at /usr/bin/AppaAppsPhotoApp.pl line 2139\n",
     ],
     parsedCmds => [
       'fix',
@@ -118,12 +123,12 @@ do {
         cmd => "photo",
         end => 10,
         index => 0,
-        name => "shark.blacktip",
+        name => "Shark.Blacktip",
         parsedKeys => bless({
           cmd       => "photo",
           height    => 1536,
           maps      => "https://en.wikipedia.org/wiki/Blacktip_shark",
-          name      => "shark.blacktip",
+          name      => "Shark.Blacktip",
           title     => "Blacktip shark",
           titleFile => "Blacktipshark",
           url       => "https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Blacktip%20shark.JPG",
@@ -137,10 +142,10 @@ do {
         cmd => "fact",
         end => 12,
         index => 0,
-        name => "shark.blacktip.1",
+        name => "Shark.Blacktip.1",
         parsedKeys => bless({
           cmd => "fact",
-          name => "shark.blacktip.1",
+          name => "Shark.Blacktip.1",
           title => "Carcharhinus limbatus",
           titleFile => "Carcharhinuslimbatus",
         }, "ParsedKeys"),
@@ -152,10 +157,10 @@ do {
         cmd => "fact",
         end => 13,
         index => 1,
-        name => "shark.blacktip.2",
+        name => "Shark.Blacktip.2",
         parsedKeys => bless({
           cmd => "fact",
-          name => "shark.blacktip.2",
+          name => "Shark.Blacktip.2",
           title => "Galveston",
           titleFile => "Galveston",
         }, "ParsedKeys"),
@@ -167,10 +172,10 @@ do {
         cmd => "fact",
         end => 14,
         index => 2,
-        name => "shark.blacktip.3",
+        name => "Shark.Blacktip.3",
         parsedKeys => bless({
           cmd => "fact",
-          name => "shark.blacktip.3",
+          name => "Shark.Blacktip.3",
           title => "Drifting a dead menhaden",
           titleFile => "Driftingadeadmenhaden",
         }, "ParsedKeys"),
@@ -182,10 +187,10 @@ do {
         cmd => "fact",
         end => 15,
         index => 3,
-        name => "shark.blacktip.4",
+        name => "Shark.Blacktip.4",
         parsedKeys => bless({
           cmd => "fact",
-          name => "shark.blacktip.4",
+          name => "Shark.Blacktip.4",
           title => "Forty pounds",
           titleFile => "Fortypounds",
         }, "ParsedKeys"),
@@ -197,10 +202,10 @@ do {
         cmd => "fact",
         end => 16,
         index => 4,
-        name => "shark.blacktip.5",
+        name => "Shark.Blacktip.5",
         parsedKeys => bless({
           cmd => "fact",
-          name => "shark.blacktip.5",
+          name => "Shark.Blacktip.5",
           title => "Timid yet will attack people for food",
           titleFile => "Timidyetwillattackpeopleforfood",
         }, "ParsedKeys"),
@@ -212,10 +217,10 @@ do {
         cmd => "fact",
         end => 17,
         index => 5,
-        name => "shark.blacktip.6",
+        name => "Shark.Blacktip.6",
         parsedKeys => bless({
           cmd => "fact",
-          name => "shark.blacktip.6",
+          name => "Shark.Blacktip.6",
           title => "Makes spinning leaps when attacking schools of small fish",
           titleFile => "Makesspinningleapswhenattackingschoolsofsmallfish",
         }, "ParsedKeys"),
@@ -227,12 +232,12 @@ do {
         cmd => "photo",
         end => 24,
         index => 1,
-        name => "trout.brown",
+        name => "Trout.Brown",
         parsedKeys => bless({
           cmd       => "photo",
           height    => 3264,
           maps      => "https://en.wikipedia.org/wiki/Brown_trout",
-          name      => "trout.brown",
+          name      => "Trout.Brown",
           title     => "Brown Trout",
           titleFile => "BrownTrout",
           url       => "https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Brown%20Trout.jpg",
@@ -246,10 +251,10 @@ do {
         cmd => "fact",
         end => 26,
         index => 6,
-        name => "trout",
+        name => "Trout",
         parsedKeys => bless({
           cmd => "fact",
-          name => "trout",
+          name => "Trout",
           title => "Salmo trutta",
           titleFile => "Salmotrutta",
         }, "ParsedKeys"),
@@ -261,10 +266,10 @@ do {
         cmd => "fact",
         end => 27,
         index => 7,
-        name => "trout.brown.1",
+        name => "Trout.Brown.1",
         parsedKeys => bless({
           cmd => "fact",
-          name => "trout.brown.1",
+          name => "Trout.Brown.1",
           title => "Little Juniata River near Alexandria",
           titleFile => "LittleJuniataRivernearAlexandria",
         }, "ParsedKeys"),
@@ -276,10 +281,10 @@ do {
         cmd => "fact",
         end => 28,
         index => 8,
-        name => "trout.brown.2",
+        name => "Trout.Brown.2",
         parsedKeys => bless({
           cmd => "fact",
-          name => "trout.brown.2",
+          name => "Trout.Brown.2",
           title => "Size 12 peeking caddis fly",
           titleFile => "Size12peekingcaddisfly",
         }, "ParsedKeys"),
@@ -291,10 +296,10 @@ do {
         cmd => "fact",
         end => 29,
         index => 9,
-        name => "trout.brown.3",
+        name => "Trout.Brown.3",
         parsedKeys => bless({
           cmd => "fact",
-          name => "trout.brown.3",
+          name => "Trout.Brown.3",
           title => "Two pounds",
           titleFile => "Twopounds",
         }, "ParsedKeys"),
@@ -306,12 +311,12 @@ do {
         cmd => "photo",
         end => 36,
         index => 2,
-        name => "jack.crevalle",
+        name => "Jack.Crevalle",
         parsedKeys => bless({
           cmd       => "photo",
           height    => 2048,
           maps      => "https://en.wikipedia.org/wiki/Crevalle_jack",
-          name      => "jack.crevalle",
+          name      => "Jack.Crevalle",
           title     => "Jack Crevalle",
           titleFile => "JackCrevalle",
           url       => "https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Jack%20Crevalle.JPG",
@@ -325,10 +330,10 @@ do {
         cmd => "fact",
         end => 38,
         index => 10,
-        name => "jack.crevalle.1",
+        name => "Jack.Crevalle.1",
         parsedKeys => bless({
           cmd => "fact",
-          name => "jack.crevalle.1",
+          name => "Jack.Crevalle.1",
           title => "Caranx hippos",
           titleFile => "Caranxhippos",
         }, "ParsedKeys"),
@@ -340,10 +345,10 @@ do {
         cmd => "fact",
         end => 39,
         index => 11,
-        name => "jack.crevalle.2",
+        name => "Jack.Crevalle.2",
         parsedKeys => bless({
           cmd => "fact",
-          name => "jack.crevalle.2",
+          name => "Jack.Crevalle.2",
           title => "Galveston",
           titleFile => "Galveston1",
         }, "ParsedKeys"),
@@ -355,10 +360,10 @@ do {
         cmd => "fact",
         end => 40,
         index => 12,
-        name => "jack.crevalle.3",
+        name => "Jack.Crevalle.3",
         parsedKeys => bless({
           cmd => "fact",
-          name => "jack.crevalle.3",
+          name => "Jack.Crevalle.3",
           title => "Caught drifting a dead menhaden",
           titleFile => "Caughtdriftingadeadmenhaden",
         }, "ParsedKeys"),
@@ -370,10 +375,10 @@ do {
         cmd => "fact",
         end => 41,
         index => 13,
-        name => "jack.crevalle.4",
+        name => "Jack.Crevalle.4",
         parsedKeys => bless({
           cmd => "fact",
-          name => "jack.crevalle.4",
+          name => "Jack.Crevalle.4",
           title => "Fifteen pounds",
           titleFile => "Fifteenpounds",
         }, "ParsedKeys"),
@@ -385,10 +390,10 @@ do {
         cmd => "fact",
         end => 42,
         index => 14,
-        name => "jack.crevalle.5",
+        name => "Jack.Crevalle.5",
         parsedKeys => bless({
           cmd => "fact",
-          name => "jack.crevalle.5",
+          name => "Jack.Crevalle.5",
           title => "Caudal fin is strongly forked",
           titleFile => "Caudalfinisstronglyforked",
         }, "ParsedKeys"),
@@ -400,10 +405,10 @@ do {
         cmd => "fact",
         end => 43,
         index => 15,
-        name => "jack.crevalle.6",
+        name => "Jack.Crevalle.6",
         parsedKeys => bless({
           cmd => "fact",
-          name => "jack.crevalle.6",
+          name => "Jack.Crevalle.6",
           title => "eye is covered by a well-developed adipose eyelid",
           titleFile => "eyeiscoveredbyawelldevelopedadiposeeyelid",
         }, "ParsedKeys"),
@@ -415,12 +420,12 @@ do {
         cmd => "photo",
         end => 50,
         index => 3,
-        name => "bass.smallmouth",
+        name => "Bass.Smallmouth",
         parsedKeys => bless({
           cmd       => "photo",
           height    => 1840,
           maps      => "https://en.wikipedia.org/wiki/Smallmouth_bass",
-          name      => "bass.smallmouth",
+          name      => "Bass.Smallmouth",
           title     => "Smallmouth Bass",
           titleFile => "SmallmouthBass",
           url       => "https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Smallmouth%20Bass.jpg",
@@ -434,10 +439,10 @@ do {
         cmd => "fact",
         end => 52,
         index => 16,
-        name => "bass.smallmouth.1",
+        name => "Bass.Smallmouth.1",
         parsedKeys => bless({
           cmd => "fact",
-          name => "bass.smallmouth.1",
+          name => "Bass.Smallmouth.1",
           title => "Micropterus dolomieu",
           titleFile => "Micropterusdolomieu",
         }, "ParsedKeys"),
@@ -449,10 +454,10 @@ do {
         cmd => "fact",
         end => 53,
         index => 17,
-        name => "bass.smallmouth.2",
+        name => "Bass.Smallmouth.2",
         parsedKeys => bless({
           cmd => "fact",
-          name => "bass.smallmouth.2",
+          name => "Bass.Smallmouth.2",
           title => "Allegheny River at Tionesta",
           titleFile => "AlleghenyRiveratTionesta",
         }, "ParsedKeys"),
@@ -464,10 +469,10 @@ do {
         cmd => "fact",
         end => 54,
         index => 18,
-        name => "bass.smallmouth.3",
+        name => "Bass.Smallmouth.3",
         parsedKeys => bless({
           cmd => "fact",
-          name => "bass.smallmouth.3",
+          name => "Bass.Smallmouth.3",
           title => "Jerk bait",
           titleFile => "Jerkbait",
         }, "ParsedKeys"),
@@ -479,10 +484,10 @@ do {
         cmd => "fact",
         end => 55,
         index => 19,
-        name => "bass.smallmouth.4",
+        name => "Bass.Smallmouth.4",
         parsedKeys => bless({
           cmd => "fact",
-          name => "bass.smallmouth.4",
+          name => "Bass.Smallmouth.4",
           title => "Three pounds",
           titleFile => "Threepounds",
         }, "ParsedKeys"),
@@ -494,10 +499,10 @@ do {
         cmd => "fact",
         end => 56,
         index => 20,
-        name => "bass.smallmouth.5",
+        name => "Bass.Smallmouth.5",
         parsedKeys => bless({
           cmd => "fact",
-          name => "bass.smallmouth.5",
+          name => "Bass.Smallmouth.5",
           title => "Native to the Mississippi",
           titleFile => "NativetotheMississippi",
         }, "ParsedKeys"),
@@ -509,10 +514,10 @@ do {
         cmd => "fact",
         end => 57,
         index => 21,
-        name => "bass.smallmouth.6",
+        name => "Bass.Smallmouth.6",
         parsedKeys => bless({
           cmd => "fact",
-          name => "bass.smallmouth.6",
+          name => "Bass.Smallmouth.6",
           title => "Transplanted through USA in buckets and barrels by rail",
           titleFile => "TransplantedthroughUSAinbucketsandbarrelsbyrail",
         }, "ParsedKeys"),
@@ -524,12 +529,12 @@ do {
         cmd => "photo",
         end => 64,
         index => 4,
-        name => "trout.speckled",
+        name => "Trout.Speckled",
         parsedKeys => bless({
           cmd       => "photo",
           height    => 3024,
           maps      => "https://en.wikipedia.org/wiki/Brown_trout",
-          name      => "trout.speckled",
+          name      => "Trout.Speckled",
           title     => "Speckled Trout",
           titleFile => "SpeckledTrout",
           url       => "https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/SpeckledTrout.jpg",
@@ -543,10 +548,10 @@ do {
         cmd => "fact",
         end => 66,
         index => 22,
-        name => "trout.speckled.1",
+        name => "Trout.Speckled.1",
         parsedKeys => bless({
           cmd => "fact",
-          name => "trout.speckled.1",
+          name => "Trout.Speckled.1",
           title => "South Platte River near Lake George",
           titleFile => "SouthPlatteRivernearLakeGeorge",
         }, "ParsedKeys"),
@@ -558,10 +563,10 @@ do {
         cmd => "fact",
         end => 67,
         index => 23,
-        name => "trout.speckled.2",
+        name => "Trout.Speckled.2",
         parsedKeys => bless({
           cmd => "fact",
-          name => "trout.speckled.2",
+          name => "Trout.Speckled.2",
           title => "Size 20 rs2 fly",
           titleFile => "Size20rs2fly",
         }, "ParsedKeys"),
@@ -573,10 +578,10 @@ do {
         cmd => "fact",
         end => 68,
         index => 24,
-        name => "trout.speckled.3",
+        name => "Trout.Speckled.3",
         parsedKeys => bless({
           cmd => "fact",
-          name => "trout.speckled.3",
+          name => "Trout.Speckled.3",
           title => "Six pounds",
           titleFile => "Sixpounds",
         }, "ParsedKeys"),
@@ -588,10 +593,10 @@ do {
         cmd => "fact",
         end => 69,
         index => 25,
-        name => "trout.speckled.4",
+        name => "Trout.Speckled.4",
         parsedKeys => bless({
           cmd => "fact",
-          name => "trout.speckled.4",
+          name => "Trout.Speckled.4",
           title => "Closely related to the Atlantic salmon",
           titleFile => "CloselyrelatedtotheAtlanticsalmon",
         }, "ParsedKeys"),
@@ -603,10 +608,10 @@ do {
         cmd => "fact",
         end => 70,
         index => 26,
-        name => "trout.speckled.5",
+        name => "Trout.Speckled.5",
         parsedKeys => bless({
           cmd => "fact",
-          name => "trout.speckled.5",
+          name => "Trout.Speckled.5",
           title => "High dietary reliance upon insects",
           titleFile => "Highdietaryrelianceuponinsects",
         }, "ParsedKeys"),
@@ -618,12 +623,12 @@ do {
         cmd => "photo",
         end => 77,
         index => 5,
-        name => "bass.striped",
+        name => "Bass.Striped",
         parsedKeys => bless({
           cmd       => "photo",
           height    => 3264,
           maps      => "https://en.wikipedia.org/wiki/Striped_bass",
-          name      => "bass.striped",
+          name      => "Bass.Striped",
           title     => "Striped Bass",
           titleFile => "StripedBass",
           url       => "https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg",
@@ -637,10 +642,10 @@ do {
         cmd => "fact",
         end => 79,
         index => 27,
-        name => "bass.striped.1",
+        name => "Bass.Striped.1",
         parsedKeys => bless({
           cmd => "fact",
-          name => "bass.striped.1",
+          name => "Bass.Striped.1",
           title => "Morone saxatilis",
           titleFile => "Moronesaxatilis",
         }, "ParsedKeys"),
@@ -652,10 +657,10 @@ do {
         cmd => "fact",
         end => 80,
         index => 28,
-        name => "bass.striped.2",
+        name => "Bass.Striped.2",
         parsedKeys => bless({
           cmd => "fact",
-          name => "bass.striped.2",
+          name => "Bass.Striped.2",
           title => "Chesapeake Bay",
           titleFile => "ChesapeakeBay",
         }, "ParsedKeys"),
@@ -667,10 +672,10 @@ do {
         cmd => "fact",
         end => 81,
         index => 29,
-        name => "bass.striped.3",
+        name => "Bass.Striped.3",
         parsedKeys => bless({
           cmd => "fact",
-          name => "bass.striped.3",
+          name => "Bass.Striped.3",
           title => "Plastic shad on a lead head",
           titleFile => "Plasticshadonaleadhead",
         }, "ParsedKeys"),
@@ -682,10 +687,10 @@ do {
         cmd => "fact",
         end => 82,
         index => 30,
-        name => "bass.striped.4",
+        name => "Bass.Striped.4",
         parsedKeys => bless({
           cmd => "fact",
-          name => "bass.striped.4",
+          name => "Bass.Striped.4",
           title => "Twenty pounds",
           titleFile => "Twentypounds",
         }, "ParsedKeys"),
@@ -697,10 +702,10 @@ do {
         cmd => "fact",
         end => 83,
         index => 31,
-        name => "bass.striped.5",
+        name => "Bass.Striped.5",
         parsedKeys => bless({
           cmd => "fact",
-          name => "bass.striped.5",
+          name => "Bass.Striped.5",
           title => "State fish of Maryland",
           titleFile => "StatefishofMaryland",
         }, "ParsedKeys"),
@@ -712,10 +717,10 @@ do {
         cmd => "fact",
         end => 84,
         index => 32,
-        name => "bass.striped.6",
+        name => "Bass.Striped.6",
         parsedKeys => bless({
           cmd => "fact",
-          name => "bass.striped.6",
+          name => "Bass.Striped.6",
           title => "Landlocked in the Grand Lake, Nova Scotia",
           titleFile => "LandlockedintheGrandLakeNovaScotia",
         }, "ParsedKeys"),
@@ -962,9 +967,9 @@ do {
         titleFile => undef,
       }, "ParsedCmd"),
     ],
-    source => "app GoneFishing = Gone Fishing in the USA\n  icon   = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg\n  author = philiprbrenan\n  email  = bill.gearhart\@ryffine.com\n\n# Details of photo Blacktip shark 2\n#------------------------------------\nphoto Shark.Blacktip = Blacktip shark\n  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Blacktip%20shark.JPG\n  maps = https://en.wikipedia.org/wiki/Blacktip_shark\n\nfact Shark.Blacktip.1 = Carcharhinus limbatus\nfact Shark.Blacktip.2 = Galveston\nfact Shark.Blacktip.3 = Drifting a dead menhaden\nfact Shark.Blacktip.4 = Forty pounds\nfact Shark.Blacktip.5 = Timid yet will attack people for food\nfact Shark.Blacktip.6 = Makes spinning leaps when attacking schools of small fish\n\n\n# Details of photo Brown Trout.jpg\n#---------------------------------\nphoto Trout.Brown = Brown Trout\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Brown%20Trout.jpg\n  maps = https://en.wikipedia.org/wiki/Brown_trout\n\nfact Trout         = Salmo trutta\nfact Trout.Brown.1 = Little Juniata River near Alexandria\nfact Trout.Brown.2 = Size 12 peeking caddis fly\nfact Trout.Brown.3 = Two pounds\n\n\n# Details of photo Jack Crevalle.JPG\n#-----------------------------------\nphoto Jack.Crevalle = Jack Crevalle\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Jack%20Crevalle.JPG\n  maps = https://en.wikipedia.org/wiki/Crevalle_jack\n\nfact Jack.Crevalle.1 = Caranx hippos\nfact Jack.Crevalle.2 = Galveston\nfact Jack.Crevalle.3 = Caught drifting a dead menhaden\nfact Jack.Crevalle.4 = Fifteen pounds\nfact Jack.Crevalle.5 = Caudal fin is strongly forked\nfact Jack.Crevalle.6 = eye is covered by a well-developed adipose eyelid\n\n\n# Details of photo Smallmouth Bass.jpg\n#-------------------------------------\nphoto Bass.Smallmouth = Smallmouth Bass\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Smallmouth%20Bass.jpg\n  maps = https://en.wikipedia.org/wiki/Smallmouth_bass\n\nfact Bass.Smallmouth.1 = Micropterus dolomieu\nfact Bass.Smallmouth.2 = Allegheny River at Tionesta\nfact Bass.Smallmouth.3 = Jerk bait\nfact Bass.Smallmouth.4 = Three pounds\nfact Bass.Smallmouth.5 = Native to the Mississippi\nfact Bass.Smallmouth.6 = Transplanted through USA in buckets and barrels by rail\n\n\n# Details of photo SpeckledTrout.jpg\n#-----------------------------------\nphoto Trout.Speckled = Speckled Trout\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/SpeckledTrout.jpg\n  maps = https://en.wikipedia.org/wiki/Brown_trout\n\nfact Trout.Speckled.1 = South Platte River near Lake George\nfact Trout.Speckled.2 = Size 20 rs2 fly\nfact Trout.Speckled.3 = Six pounds\nfact Trout.Speckled.4 = Closely related to the Atlantic salmon\nfact Trout.Speckled.5 = High dietary reliance upon insects\n\n\n# Details of photo Striped Bass.jpg\n#----------------------------------\nphoto Bass.Striped = Striped Bass\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg\n  maps = https://en.wikipedia.org/wiki/Striped_bass\n\nfact Bass.Striped.1 = Morone saxatilis\nfact Bass.Striped.2 = Chesapeake Bay\nfact Bass.Striped.3 = Plastic shad on a lead head\nfact Bass.Striped.4 = Twenty pounds\nfact Bass.Striped.5 = State fish of Maryland\nfact Bass.Striped.6 = Landlocked in the Grand Lake, Nova Scotia\n",
-    sourceFileSha => "c35add201761d4813341118207ffe6208a9c2ff8",
-    step => "completed",
+    source => "app GoneFishing = Gone Fishing in the USA 2\n  icon   = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg\n  author = philiprbrenan\n  email  = bill.gearhart\@ryffine.com\n\n# Details of photo Blacktip shark 2\n#------------------------------------\nphoto Shark.Blacktip = Blacktip shark\n  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Blacktip%20shark.JPG\n  maps = https://en.wikipedia.org/wiki/Blacktip_shark\n\nfact Shark.Blacktip.1 = Carcharhinus limbatus\nfact Shark.Blacktip.2 = Galveston\nfact Shark.Blacktip.3 = Drifting a dead menhaden\nfact Shark.Blacktip.4 = Forty pounds\nfact Shark.Blacktip.5 = Timid yet will attack people for food\nfact Shark.Blacktip.6 = Makes spinning leaps when attacking schools of small fish\n\n\n# Details of photo Brown Trout.jpg\n#---------------------------------\nphoto Trout.Brown = Brown Trout\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Brown%20Trout.jpg\n  maps = https://en.wikipedia.org/wiki/Brown_trout\n\nfact Trout         = Salmo trutta\nfact Trout.Brown.1 = Little Juniata River near Alexandria\nfact Trout.Brown.2 = Size 12 peeking caddis fly\nfact Trout.Brown.3 = Two pounds\n\n\n# Details of photo Jack Crevalle.JPG\n#-----------------------------------\nphoto Jack.Crevalle = Jack Crevalle\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Jack%20Crevalle.JPG\n  maps = https://en.wikipedia.org/wiki/Crevalle_jack\n\nfact Jack.Crevalle.1 = Caranx hippos\nfact Jack.Crevalle.2 = Galveston\nfact Jack.Crevalle.3 = Caught drifting a dead menhaden\nfact Jack.Crevalle.4 = Fifteen pounds\nfact Jack.Crevalle.5 = Caudal fin is strongly forked\nfact Jack.Crevalle.6 = eye is covered by a well-developed adipose eyelid\n\n\n# Details of photo Smallmouth Bass.jpg\n#-------------------------------------\nphoto Bass.Smallmouth = Smallmouth Bass\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Smallmouth%20Bass.jpg\n  maps = https://en.wikipedia.org/wiki/Smallmouth_bass\n\nfact Bass.Smallmouth.1 = Micropterus dolomieu\nfact Bass.Smallmouth.2 = Allegheny River at Tionesta\nfact Bass.Smallmouth.3 = Jerk bait\nfact Bass.Smallmouth.4 = Three pounds\nfact Bass.Smallmouth.5 = Native to the Mississippi\nfact Bass.Smallmouth.6 = Transplanted through USA in buckets and barrels by rail\n\n\n# Details of photo SpeckledTrout.jpg\n#-----------------------------------\nphoto Trout.Speckled = Speckled Trout\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/SpeckledTrout.jpg\n  maps = https://en.wikipedia.org/wiki/Brown_trout\n\nfact Trout.Speckled.1 = South Platte River near Lake George\nfact Trout.Speckled.2 = Size 20 rs2 fly\nfact Trout.Speckled.3 = Six pounds\nfact Trout.Speckled.4 = Closely related to the Atlantic salmon\nfact Trout.Speckled.5 = High dietary reliance upon insects\n\n\n# Details of photo Striped Bass.jpg\n#----------------------------------\nphoto Bass.Striped = Striped Bass\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg\n  maps = https://en.wikipedia.org/wiki/Striped_bass\n\nfact Bass.Striped.1 = Morone saxatilis\nfact Bass.Striped.2 = Chesapeake Bay\nfact Bass.Striped.3 = Plastic shad on a lead head\nfact Bass.Striped.4 = Twenty pounds\nfact Bass.Striped.5 = State fish of Maryland\nfact Bass.Striped.6 = Landlocked in the Grand Lake, Nova Scotia\n",
+    sourceFileSha => "20820aa0aa240cf20ab8599e7ed75c8235a00c43",
+    step => "compileApp",
   }, "Manifest");
   $a->{parsedCmds}[0] = $a->{app};
   $a;
