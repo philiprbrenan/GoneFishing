@@ -1,19 +1,19 @@
 SUCCESS!
 
-2017-11-12 at 22:20:25 Generate AppaAppsPhotoApp version 20171111-111 philiprbrenan/GoneFishing
+2017-11-12 at 22:29:36 Generate AppaAppsPhotoApp version 20171111-111 philiprbrenan/GoneFishing
 
-2017-11-12 at 22:20:29 Step: parseSource
-2017-11-12 at 22:20:29 Good source file!
-2017-11-12 at 22:20:29 Step: loadAssets
-2017-11-12 at 22:20:36 Step: multiplyPhotosByFacts
-2017-11-12 at 22:20:36 Step: genJavaManifest
-2017-11-12 at 22:20:36 Step: genJsonManifest
-2017-11-12 at 22:20:36 Step: genGameHtml
-2017-11-12 at 22:20:36 Step: genHtmlAssets
-2017-11-12 at 22:20:36 Step: zipAssets
-2017-11-12 at 22:20:36 Step: compileApp
-2017-11-12 at 22:20:41 Step: copyLinksToGitHub
-2017-11-12 at 22:20:41 Step: copyFilesIntoPositionOnWebServer
+2017-11-12 at 22:29:39 Step: parseSource
+2017-11-12 at 22:29:39 Good source file!
+2017-11-12 at 22:29:39 Step: loadAssets
+2017-11-12 at 22:29:44 Step: multiplyPhotosByFacts
+2017-11-12 at 22:29:44 Step: genJavaManifest
+2017-11-12 at 22:29:44 Step: genJsonManifest
+2017-11-12 at 22:29:44 Step: genGameHtml
+2017-11-12 at 22:29:44 Step: genHtmlAssets
+2017-11-12 at 22:29:44 Step: zipAssets
+2017-11-12 at 22:29:44 Step: compileApp
+2017-11-12 at 22:29:48 Step: copyLinksToGitHub
+2017-11-12 at 22:29:48 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -39,8 +39,6 @@ do {
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
                          "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
                          "",
-                         "Success",
-                         "Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appaapps.photoapp.GoneFishing/.Activity }",
                        ],
       package       => "com.appaapps.photoapp.GoneFishing",
       parameters    => "philiprbrenan,GoneFishing,http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/GoneFishing.zip",
@@ -93,19 +91,19 @@ do {
     error => undef,
     iconFile => "/home/phil/AppaAppsPhotoApp/cache/images/Striped%20Bass.jpg",
     log => [
-      "\n2017-11-12 at 22:20:25 Generate AppaAppsPhotoApp version 20171111-111 philiprbrenan/GoneFishing\n",
-      "2017-11-12 at 22:20:29 Step: parseSource",
-      "2017-11-12 at 22:20:29 Good source file!",
-      "2017-11-12 at 22:20:29 Step: loadAssets",
-      "2017-11-12 at 22:20:36 Step: multiplyPhotosByFacts",
-      "2017-11-12 at 22:20:36 Step: genJavaManifest",
-      "2017-11-12 at 22:20:36 Step: genJsonManifest",
-      "2017-11-12 at 22:20:36 Step: genGameHtml",
-      "2017-11-12 at 22:20:36 Step: genHtmlAssets",
-      "2017-11-12 at 22:20:36 Step: zipAssets",
-      "2017-11-12 at 22:20:36 Step: compileApp",
-      "2017-11-12 at 22:20:41 Step: copyLinksToGitHub",
-      "2017-11-12 at 22:20:41 Step: copyFilesIntoPositionOnWebServer",
+      "\n2017-11-12 at 22:29:36 Generate AppaAppsPhotoApp version 20171111-111 philiprbrenan/GoneFishing\n",
+      "2017-11-12 at 22:29:39 Step: parseSource",
+      "2017-11-12 at 22:29:39 Good source file!",
+      "2017-11-12 at 22:29:39 Step: loadAssets",
+      "2017-11-12 at 22:29:44 Step: multiplyPhotosByFacts",
+      "2017-11-12 at 22:29:44 Step: genJavaManifest",
+      "2017-11-12 at 22:29:44 Step: genJsonManifest",
+      "2017-11-12 at 22:29:44 Step: genGameHtml",
+      "2017-11-12 at 22:29:44 Step: genHtmlAssets",
+      "2017-11-12 at 22:29:44 Step: zipAssets",
+      "2017-11-12 at 22:29:44 Step: compileApp",
+      "2017-11-12 at 22:29:48 Step: copyLinksToGitHub",
+      "2017-11-12 at 22:29:48 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
