@@ -1,7 +1,8 @@
 app GoneFishing = Gone Fishing in the USA 5
   icon   = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg
   author = philiprbrenan
-  email  = bill.gearhart@ryffine.com
+  email  = philiprbrenan@gmail.com
+# email  = bill.gearhart@ryffine.com
 
 # Details of photo Blacktip shark 2
 #------------------------------------
