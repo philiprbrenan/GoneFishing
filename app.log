@@ -1,56 +1,109 @@
-Failed.
-2017-11-12 at 21:02:51 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/GoneFishing
+SUCCESS!
+2017-11-12 at 21:10:49 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/GoneFishing
 
-2017-11-12 at 21:02:52 Step: parseSource
-2017-11-12 at 21:02:52 Good source file!
-2017-11-12 at 21:02:52 Step: loadAssets
-2017-11-12 at 21:02:52 
-2017-11-12 at 21:02:53 
-2017-11-12 at 21:02:55 
-2017-11-12 at 21:02:56 
-2017-11-12 at 21:02:58 
-2017-11-12 at 21:03:01 
-2017-11-12 at 21:10:50 Failed to generate audio file
-/tmp/AppaAppsPhotoApp/users/philiprbrenan/GoneFishing/assets/audio/Salli/Driftingadeadmenhaden.mp3
-
-[Errno 2] No such file or directory: u'/tmp/AppaAppsPhotoApp/users/philiprbrenan/GoneFishing/assets/audio/Salli/Driftingadeadmenhaden.mp3'
-
+2017-11-12 at 21:10:51 Step: parseSource
+2017-11-12 at 21:10:51 Good source file!
+2017-11-12 at 21:10:51 Step: loadAssets
+2017-11-12 at 21:11:34 Step: multiplyPhotosByFacts
+2017-11-12 at 21:11:34 Step: genJavaManifest
+2017-11-12 at 21:11:34 Step: genJsonManifest
+2017-11-12 at 21:11:34 Step: genGameHtml
+2017-11-12 at 21:11:34 Step: genHtmlAssets
+2017-11-12 at 21:11:34 Step: zipAssets
+2017-11-12 at 21:11:35 Step: compileApp
+2017-11-12 at 21:11:49 Step: copyLinksToGitHub
+2017-11-12 at 21:11:51 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
+    android => bless({
+      action        => "run",
+      activity      => "Activity",
+      buildFolder   => "/tmp/AppaAppsPhotoApp/build/",
+      buildTools    => "/home/phil/Android/sdk/build-tools/25.0.3/",
+      debug         => 0,
+      device        => "emulator-5554",
+      editSource    => undef,
+      home          => "/home/phil/AppaAppsPhotoApp/",
+      icon          => "/home/phil/AppaAppsPhotoApp/cache/images/Striped%20Bass.jpg",
+      keyAlias      => "genApp",
+      keyStoreFile  => "/home/phil/AppaAppsPhotoApp/keys/genApp.keystore",
+      keyStorePwd   => "genApp",
+      libs          => [],
+      log           => [
+                         "",
+                         "warning: [options] bootstrap class path not set in conjunction with -source 1.7\n1 warning",
+                         "",
+                         "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "",
+                         "",
+                         "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
+                         "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
+                       ],
+      package       => "com.appaapps.photoapp.GoneFishing",
+      parameters    => "philiprbrenan,GoneFishing,http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/GoneFishing.zip",
+      permissions   => ["INTERNET", "ACCESS_NETWORK_STATE"],
+      platform      => "/home/phil/Android/sdk/platforms/android-25/",
+      platformTools => "/home/phil/Android/sdk/platform-tools/",
+      sdkLevels     => [15, 25],
+      src           => [
+                         "/home/phil/java/appState/AppState.java",
+                         "/home/phil/java/choices/Choices.java",
+                         "/home/phil/java/coloursTransformed/ColoursTransformed.java",
+                         "/home/phil/java/download/Download.java",
+                         "/home/phil/java/email/Email.java",
+                         "/home/phil/java/fourier/Fourier.java",
+                         "/home/phil/java/gradients/Gradients.java",
+                         "/home/phil/java/log/Log.java",
+                         "/home/phil/java/maths/Maths.java",
+                         "/home/phil/java/randomChoice/RandomChoice.java",
+                         "/home/phil/java/save/Save.java",
+                         "/home/phil/java/sound/Midi.java",
+                         "/home/phil/java/sound/Speech.java",
+                         "/home/phil/java/svg/Svg.java",
+                         "/home/phil/java/unpackappdescription/Unpackappdescription.java",
+                         "/home/phil/java/upload/UploadStream.java",
+                         "/home/phil/java/unzip/Unzip.java",
+                       ],
+      title         => "Gone Fishing in the USA 5",
+      version       => 20171112,
+    }, "Android::Build"),
     app => bless({
-      cmd        => "app",
-      end        => 4,
-      index      => 0,
-      name       => "GoneFishing",
+      cmd => "app",
+      end => 4,
+      index => 0,
+      name => "GoneFishing",
       parsedKeys => bless({
-                      author    => "philiprbrenan",
-                      cmd       => "app",
-                      email     => "philiprbrenan\@gmail.com",
-                      icon      => "https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg",
-                      language  => "en",
-                      maximages => 2,
-                      name      => "GoneFishing",
-                      speakers  => "Amy Brian Emma Geraint Ivy Joanna Joey Justin Kendra Kimberly Nicole Raveena Russell Salli",
-                      title     => "Gone Fishing in the USA 5",
-                    }, "ParsedKeys"),
-      start      => 1,
-      title      => "Gone Fishing in the USA 5",
+        author    => "philiprbrenan",
+        cmd       => "app",
+        email     => "philiprbrenan\@gmail.com",
+        icon      => "https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg",
+        language  => "en",
+        maximages => 2,
+        name      => "GoneFishing",
+        speakers  => "Amy Brian Emma Geraint Ivy Joanna Joey Justin Kendra Kimberly Nicole Raveena Russell Salli",
+        title     => "Gone Fishing in the USA 5",
+      }, "ParsedKeys"),
+      start => 1,
+      title => "Gone Fishing in the USA 5",
+      titleFile => undef,
     }, "ParsedCmd"),
-    error => 1,
+    error => undef,
     iconFile => "/home/phil/AppaAppsPhotoApp/cache/images/Striped%20Bass.jpg",
     log => [
-      "2017-11-12 at 21:02:51 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/GoneFishing\n",
-      "2017-11-12 at 21:02:52 Step: parseSource",
-      "2017-11-12 at 21:02:52 Good source file!",
-      "2017-11-12 at 21:02:52 Step: loadAssets",
-      "2017-11-12 at 21:02:52 ",
-      "2017-11-12 at 21:02:53 ",
-      "2017-11-12 at 21:02:55 ",
-      "2017-11-12 at 21:02:56 ",
-      "2017-11-12 at 21:02:58 ",
-      "2017-11-12 at 21:03:01 ",
-      "2017-11-12 at 21:10:50 Failed to generate audio file\n/tmp/AppaAppsPhotoApp/users/philiprbrenan/GoneFishing/assets/audio/Salli/Driftingadeadmenhaden.mp3\n\n[Errno 2] No such file or directory: u'/tmp/AppaAppsPhotoApp/users/philiprbrenan/GoneFishing/assets/audio/Salli/Driftingadeadmenhaden.mp3'\n",
+      "2017-11-12 at 21:10:49 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/GoneFishing\n",
+      "2017-11-12 at 21:10:51 Step: parseSource",
+      "2017-11-12 at 21:10:51 Good source file!",
+      "2017-11-12 at 21:10:51 Step: loadAssets",
+      "2017-11-12 at 21:11:34 Step: multiplyPhotosByFacts",
+      "2017-11-12 at 21:11:34 Step: genJavaManifest",
+      "2017-11-12 at 21:11:34 Step: genJsonManifest",
+      "2017-11-12 at 21:11:34 Step: genGameHtml",
+      "2017-11-12 at 21:11:34 Step: genHtmlAssets",
+      "2017-11-12 at 21:11:34 Step: zipAssets",
+      "2017-11-12 at 21:11:35 Step: compileApp",
+      "2017-11-12 at 21:11:49 Step: copyLinksToGitHub",
+      "2017-11-12 at 21:11:51 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
@@ -663,10 +716,248 @@ do {
         title => "Landlocked in the Grand Lake, Nova Scotia",
         titleFile => "LandlockedintheGrandLakeNovaScotia",
       }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 0,
+        parsedKeys => bless({ cmd => "photoFact", name => 0, title => 0 }, "ParsedKeys"),
+        title => 0,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 0,
+        parsedKeys => bless({ cmd => "photoFact", name => 0, title => 1 }, "ParsedKeys"),
+        title => 1,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 0,
+        parsedKeys => bless({ cmd => "photoFact", name => 0, title => 2 }, "ParsedKeys"),
+        title => 2,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 0,
+        parsedKeys => bless({ cmd => "photoFact", name => 0, title => 3 }, "ParsedKeys"),
+        title => 3,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 0,
+        parsedKeys => bless({ cmd => "photoFact", name => 0, title => 4 }, "ParsedKeys"),
+        title => 4,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 0,
+        parsedKeys => bless({ cmd => "photoFact", name => 0, title => 5 }, "ParsedKeys"),
+        title => 5,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 1,
+        parsedKeys => bless({ cmd => "photoFact", name => 1, title => 6 }, "ParsedKeys"),
+        title => 6,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 1,
+        parsedKeys => bless({ cmd => "photoFact", name => 1, title => 7 }, "ParsedKeys"),
+        title => 7,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 1,
+        parsedKeys => bless({ cmd => "photoFact", name => 1, title => 8 }, "ParsedKeys"),
+        title => 8,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 1,
+        parsedKeys => bless({ cmd => "photoFact", name => 1, title => 9 }, "ParsedKeys"),
+        title => 9,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 2,
+        parsedKeys => bless({ cmd => "photoFact", name => 2, title => 10 }, "ParsedKeys"),
+        title => 10,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 2,
+        parsedKeys => bless({ cmd => "photoFact", name => 2, title => 11 }, "ParsedKeys"),
+        title => 11,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 2,
+        parsedKeys => bless({ cmd => "photoFact", name => 2, title => 12 }, "ParsedKeys"),
+        title => 12,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 2,
+        parsedKeys => bless({ cmd => "photoFact", name => 2, title => 13 }, "ParsedKeys"),
+        title => 13,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 2,
+        parsedKeys => bless({ cmd => "photoFact", name => 2, title => 14 }, "ParsedKeys"),
+        title => 14,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 2,
+        parsedKeys => bless({ cmd => "photoFact", name => 2, title => 15 }, "ParsedKeys"),
+        title => 15,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 3,
+        parsedKeys => bless({ cmd => "photoFact", name => 3, title => 16 }, "ParsedKeys"),
+        title => 16,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 3,
+        parsedKeys => bless({ cmd => "photoFact", name => 3, title => 17 }, "ParsedKeys"),
+        title => 17,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 3,
+        parsedKeys => bless({ cmd => "photoFact", name => 3, title => 18 }, "ParsedKeys"),
+        title => 18,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 3,
+        parsedKeys => bless({ cmd => "photoFact", name => 3, title => 19 }, "ParsedKeys"),
+        title => 19,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 3,
+        parsedKeys => bless({ cmd => "photoFact", name => 3, title => 20 }, "ParsedKeys"),
+        title => 20,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 3,
+        parsedKeys => bless({ cmd => "photoFact", name => 3, title => 21 }, "ParsedKeys"),
+        title => 21,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 4,
+        parsedKeys => bless({ cmd => "photoFact", name => 4, title => 6 }, "ParsedKeys"),
+        title => 6,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 4,
+        parsedKeys => bless({ cmd => "photoFact", name => 4, title => 22 }, "ParsedKeys"),
+        title => 22,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 4,
+        parsedKeys => bless({ cmd => "photoFact", name => 4, title => 23 }, "ParsedKeys"),
+        title => 23,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 4,
+        parsedKeys => bless({ cmd => "photoFact", name => 4, title => 24 }, "ParsedKeys"),
+        title => 24,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 4,
+        parsedKeys => bless({ cmd => "photoFact", name => 4, title => 25 }, "ParsedKeys"),
+        title => 25,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 4,
+        parsedKeys => bless({ cmd => "photoFact", name => 4, title => 26 }, "ParsedKeys"),
+        title => 26,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 5,
+        parsedKeys => bless({ cmd => "photoFact", name => 5, title => 27 }, "ParsedKeys"),
+        title => 27,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 5,
+        parsedKeys => bless({ cmd => "photoFact", name => 5, title => 28 }, "ParsedKeys"),
+        title => 28,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 5,
+        parsedKeys => bless({ cmd => "photoFact", name => 5, title => 29 }, "ParsedKeys"),
+        title => 29,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 5,
+        parsedKeys => bless({ cmd => "photoFact", name => 5, title => 30 }, "ParsedKeys"),
+        title => 30,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 5,
+        parsedKeys => bless({ cmd => "photoFact", name => 5, title => 31 }, "ParsedKeys"),
+        title => 31,
+        titleFile => undef,
+      }, "ParsedCmd"),
+      bless({
+        cmd => "photoFact",
+        name => 5,
+        parsedKeys => bless({ cmd => "photoFact", name => 5, title => 32 }, "ParsedKeys"),
+        title => 32,
+        titleFile => undef,
+      }, "ParsedCmd"),
     ],
     source => "app GoneFishing = Gone Fishing in the USA 5\n  icon   = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg\n  author = philiprbrenan\n  email  = philiprbrenan\@gmail.com\n# email  = bill.gearhart\@ryffine.com\n\n# Details of photo Blacktip shark 2\n#------------------------------------\nphoto Shark.Blacktip = Blacktip shark\n  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Blacktip%20shark.JPG\n  maps = https://en.wikipedia.org/wiki/Blacktip_shark\n\nfact Shark.Blacktip.1 = Carcharhinus limbatus\nfact Shark.Blacktip.2 = Galveston\nfact Shark.Blacktip.3 = Drifting a dead menhaden\nfact Shark.Blacktip.4 = Forty pounds\nfact Shark.Blacktip.5 = Timid yet will attack people for food\nfact Shark.Blacktip.6 = Makes spinning leaps when attacking schools of small fish\n\n\n# Details of photo Brown Trout.jpg\n#---------------------------------\nphoto Trout.Brown = Brown Trout\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Brown%20Trout.jpg\n  maps = https://en.wikipedia.org/wiki/Brown_trout\n\nfact Trout         = Salmo trutta\nfact Trout.Brown.1 = Little Juniata River near Alexandria\nfact Trout.Brown.2 = Size 12 peeking caddis fly\nfact Trout.Brown.3 = Two pounds\n\n\n# Details of photo Jack Crevalle.JPG\n#-----------------------------------\nphoto Jack.Crevalle = Jack Crevalle\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Jack%20Crevalle.JPG\n  maps = https://en.wikipedia.org/wiki/Crevalle_jack\n\nfact Jack.Crevalle.1 = Caranx hippos\nfact Jack.Crevalle.2 = Galveston\nfact Jack.Crevalle.3 = Caught drifting a dead menhaden\nfact Jack.Crevalle.4 = Fifteen pounds\nfact Jack.Crevalle.5 = Caudal fin is strongly forked\nfact Jack.Crevalle.6 = eye is covered by a well-developed adipose eyelid\n\n\n# Details of photo Smallmouth Bass.jpg\n#-------------------------------------\nphoto Bass.Smallmouth = Smallmouth Bass\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Smallmouth%20Bass.jpg\n  maps = https://en.wikipedia.org/wiki/Smallmouth_bass\n\nfact Bass.Smallmouth.1 = Micropterus dolomieu\nfact Bass.Smallmouth.2 = Allegheny River at Tionesta\nfact Bass.Smallmouth.3 = Jerk bait\nfact Bass.Smallmouth.4 = Three pounds\nfact Bass.Smallmouth.5 = Native to the Mississippi\nfact Bass.Smallmouth.6 = Transplanted through USA in buckets and barrels by rail\n\n\n# Details of photo SpeckledTrout.jpg\n#-----------------------------------\nphoto Trout.Speckled = Speckled Trout\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/SpeckledTrout.jpg\n  maps = https://en.wikipedia.org/wiki/Brown_trout\n\nfact Trout.Speckled.1 = South Platte River near Lake George\nfact Trout.Speckled.2 = Size 20 rs2 fly\nfact Trout.Speckled.3 = Six pounds\nfact Trout.Speckled.4 = Closely related to the Atlantic salmon\nfact Trout.Speckled.5 = High dietary reliance upon insects\n\n\n# Details of photo Striped Bass.jpg\n#----------------------------------\nphoto Bass.Striped = Striped Bass\n  url  = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg\n  maps = https://en.wikipedia.org/wiki/Striped_bass\n\nfact Bass.Striped.1 = Morone saxatilis\nfact Bass.Striped.2 = Chesapeake Bay\nfact Bass.Striped.3 = Plastic shad on a lead head\nfact Bass.Striped.4 = Twenty pounds\nfact Bass.Striped.5 = State fish of Maryland\nfact Bass.Striped.6 = Landlocked in the Grand Lake, Nova Scotia\n",
     sourceFileSha => "0ec23fad55795df019a113b10d50637e198666e7",
-    step => "loadAssets",
+    step => "completed",
   }, "Manifest");
   $a->{parsedCmds}[0] = $a->{app};
   $a;
