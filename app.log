@@ -1,19 +1,19 @@
 SUCCESS!
 
-2017-11-16 at 01:06:04 Generate AppaAppsPhotoApp version 20171114-66 philiprbrenan/GoneFishing
+2017-11-16 at 21:20:28 Generate AppaAppsPhotoApp version 20171116-33 philiprbrenan/GoneFishing
 
-2017-11-16 at 01:06:08 Step: parseSource
-2017-11-16 at 01:06:08 Good source file!
-2017-11-16 at 01:06:08 Step: loadAssets
-2017-11-16 at 01:06:14 Step: multiplyPhotosByFacts
-2017-11-16 at 01:06:14 Step: genJavaManifest
-2017-11-16 at 01:06:14 Step: genJsonManifest
-2017-11-16 at 01:06:14 Step: genGameHtml
-2017-11-16 at 01:06:14 Step: genHtmlAssets
-2017-11-16 at 01:06:14 Step: zipAssets
-2017-11-16 at 01:06:14 Step: compileApp
-2017-11-16 at 01:06:21 Step: copyLinksToGitHub
-2017-11-16 at 01:06:21 Step: copyFilesIntoPositionOnWebServer
+2017-11-16 at 21:20:32 Step: parseSource
+2017-11-16 at 21:20:32 Good source file!
+2017-11-16 at 21:20:32 Step: loadAssets
+2017-11-16 at 21:20:37 Step: multiplyPhotosByFacts
+2017-11-16 at 21:20:37 Step: genJavaManifest
+2017-11-16 at 21:20:37 Step: genJsonManifest
+2017-11-16 at 21:20:37 Step: genGameHtml
+2017-11-16 at 21:20:37 Step: genHtmlAssets
+2017-11-16 at 21:20:37 Step: zipAssets
+2017-11-16 at 21:20:37 Step: compileApp
+2017-11-16 at 21:20:42 Step: copyLinksToGitHub
+2017-11-16 at 21:20:46 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -23,7 +23,7 @@ do {
       buildFolder   => "/tmp/AppaAppsPhotoApp/build/",
       buildTools    => "/home/phil/Android/sdk/build-tools/25.0.2/",
       debug         => 0,
-      device        => "emulator-5554",
+      device        => "-s emulator-5554",
       home          => "/home/phil/AppaAppsPhotoApp/",
       icon          => "/home/phil/AppaAppsPhotoApp/cache/images/Striped%20Bass.jpg",
       keyAlias      => "genApp",
@@ -32,7 +32,6 @@ do {
       libs          => [],
       log           => [
                          "",
-                         "warning: [options] bootstrap class path not set in conjunction with -source 1.7\n1 warning",
                          "",
                          "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
@@ -41,7 +40,7 @@ do {
                        ],
       package       => "com.appaapps.photoapp.GoneFishing",
       parameters    => "philiprbrenan,GoneFishing,http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/GoneFishing.zip",
-      permissions   => ["INTERNET", "ACCESS_NETWORK_STATE"],
+      permissions   => ["INTERNET", "ACCESS_NETWORK_STATE", "WRITE_EXTERNAL_STORAGE"],
       platform      => "/home/phil/Android/sdk/platforms/android-25/",
       platformTools => "/home/phil/Android/sdk/platform-tools/",
       sdkLevels     => [15, 25],
@@ -91,19 +90,19 @@ do {
     error => undef,
     iconFile => "/home/phil/AppaAppsPhotoApp/cache/images/Striped%20Bass.jpg",
     log => [
-      "\n2017-11-16 at 01:06:04 Generate AppaAppsPhotoApp version 20171114-66 philiprbrenan/GoneFishing\n",
-      "2017-11-16 at 01:06:08 Step: parseSource",
-      "2017-11-16 at 01:06:08 Good source file!",
-      "2017-11-16 at 01:06:08 Step: loadAssets",
-      "2017-11-16 at 01:06:14 Step: multiplyPhotosByFacts",
-      "2017-11-16 at 01:06:14 Step: genJavaManifest",
-      "2017-11-16 at 01:06:14 Step: genJsonManifest",
-      "2017-11-16 at 01:06:14 Step: genGameHtml",
-      "2017-11-16 at 01:06:14 Step: genHtmlAssets",
-      "2017-11-16 at 01:06:14 Step: zipAssets",
-      "2017-11-16 at 01:06:14 Step: compileApp",
-      "2017-11-16 at 01:06:21 Step: copyLinksToGitHub",
-      "2017-11-16 at 01:06:21 Step: copyFilesIntoPositionOnWebServer",
+      "\n2017-11-16 at 21:20:28 Generate AppaAppsPhotoApp version 20171116-33 philiprbrenan/GoneFishing\n",
+      "2017-11-16 at 21:20:32 Step: parseSource",
+      "2017-11-16 at 21:20:32 Good source file!",
+      "2017-11-16 at 21:20:32 Step: loadAssets",
+      "2017-11-16 at 21:20:37 Step: multiplyPhotosByFacts",
+      "2017-11-16 at 21:20:37 Step: genJavaManifest",
+      "2017-11-16 at 21:20:37 Step: genJsonManifest",
+      "2017-11-16 at 21:20:37 Step: genGameHtml",
+      "2017-11-16 at 21:20:37 Step: genHtmlAssets",
+      "2017-11-16 at 21:20:37 Step: zipAssets",
+      "2017-11-16 at 21:20:37 Step: compileApp",
+      "2017-11-16 at 21:20:42 Step: copyLinksToGitHub",
+      "2017-11-16 at 21:20:46 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
