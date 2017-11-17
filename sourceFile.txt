@@ -5,7 +5,7 @@ app GoneFishing = Gone Fishing in the USA
 # email  = bill.gearhart@ryffine.com
 
 # Details of photo Blacktip shark.JPG
-#-------------------------------------
+#------------------------------------
 photo Shark.Blacktip = Blacktip shark
   url = Blacktip shark.JPG
   wiki =  https://en.wikipedia.org/wiki/Blacktip_shark
