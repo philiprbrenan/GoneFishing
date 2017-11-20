@@ -1,19 +1,19 @@
 SUCCESS!
 
-2017-11-18 at 02:06:16 Generate AppaAppsPhotoApp version 20171117-11 philiprbrenan/GoneFishing
+2017-11-20 at 19:48:41 Generate AppaAppsPhotoApp version 20171120-44 philiprbrenan/GoneFishing
 
-2017-11-18 at 02:06:20 Step: parseSource
-2017-11-18 at 02:06:20 Good source file!
-2017-11-18 at 02:06:20 Step: loadAssets
-2017-11-18 at 02:06:51 Step: multiplyPhotosByFacts
-2017-11-18 at 02:06:51 Step: genJavaManifest
-2017-11-18 at 02:06:51 Step: genJsonManifest
-2017-11-18 at 02:06:51 Step: genGameHtml
-2017-11-18 at 02:06:51 Step: genHtmlAssets
-2017-11-18 at 02:06:51 Step: zipAssets
-2017-11-18 at 02:06:51 Step: compileApp
-2017-11-18 at 02:06:58 Step: copyLinksToGitHub
-2017-11-18 at 02:06:58 Step: copyFilesIntoPositionOnWebServer
+2017-11-20 at 19:48:43 Step: parseSource
+2017-11-20 at 19:48:43 <b>Good source file!</b>
+2017-11-20 at 19:48:43 Step: loadAssets
+2017-11-20 at 19:48:53 Step: multiplyPhotosByFacts
+2017-11-20 at 19:48:53 Step: genJavaManifest
+2017-11-20 at 19:48:53 Step: genJsonManifest
+2017-11-20 at 19:48:53 Step: genGameHtml
+2017-11-20 at 19:48:53 Step: genHtmlAssets
+2017-11-20 at 19:48:53 Step: zipAssets
+2017-11-20 at 19:48:54 Step: compileApp
+2017-11-20 at 19:49:07 Step: copyLinksToGitHub
+2017-11-20 at 19:49:09 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -21,10 +21,11 @@ do {
       action        => "run",
       activity      => "Activity",
       buildFolder   => "/tmp/AppaAppsPhotoApp/build/",
-      buildTools    => "/home/phil/Android/sdk/build-tools/25.0.2/",
+      buildTools    => "/home/phil/Android/sdk/build-tools/25.0.3/",
       debug         => 0,
       device        => "-s emulator-5554",
-      home          => "/home/phil/AppaAppsPhotoApp/",
+      editSource    => undef,
+      home          => "/root/",
       icon          => "/home/phil/AppaAppsPhotoApp/cache/images/StripedBass.jpg",
       keyAlias      => "genApp",
       keyStoreFile  => "/home/phil/AppaAppsPhotoApp/keys/genApp.keystore",
@@ -32,14 +33,16 @@ do {
       libs          => [],
       log           => [
                          "",
+                         "warning: [options] bootstrap class path not set in conjunction with -source 1.7\n1 warning",
                          "",
                          "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
-                         "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
                          "",
+                         "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
+                         "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
                        ],
       package       => "com.appaapps.photoapp.GoneFishing",
-      parameters    => "philiprbrenan,GoneFishing,http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/GoneFishing.zip",
+      parameters    => "philiprbrenan,GoneFishing,http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/GoneFishing.zip,Gone Fishing in the USA",
       permissions   => ["INTERNET", "ACCESS_NETWORK_STATE", "WRITE_EXTERNAL_STORAGE"],
       platform      => "/home/phil/Android/sdk/platforms/android-25/",
       platformTools => "/home/phil/Android/sdk/platform-tools/",
@@ -64,8 +67,7 @@ do {
                          "/home/phil/java/unzip/Unzip.java",
                        ],
       title         => "Gone Fishing in the USA",
-      verifyApk     => undef,
-      version       => 20171118,
+      version       => 20171120,
     }, "Android::Build"),
     app => bless({
       cmd => "app",
@@ -87,22 +89,22 @@ do {
       title => "Gone Fishing in the USA",
       titleFile => undef,
     }, "ParsedCmd"),
-    error => undef,
+    error => 0,
     iconFile => "/home/phil/AppaAppsPhotoApp/cache/images/StripedBass.jpg",
     log => [
-      "\n2017-11-18 at 02:06:16 Generate AppaAppsPhotoApp version 20171117-11 philiprbrenan/GoneFishing\n",
-      "2017-11-18 at 02:06:20 Step: parseSource",
-      "2017-11-18 at 02:06:20 Good source file!",
-      "2017-11-18 at 02:06:20 Step: loadAssets",
-      "2017-11-18 at 02:06:51 Step: multiplyPhotosByFacts",
-      "2017-11-18 at 02:06:51 Step: genJavaManifest",
-      "2017-11-18 at 02:06:51 Step: genJsonManifest",
-      "2017-11-18 at 02:06:51 Step: genGameHtml",
-      "2017-11-18 at 02:06:51 Step: genHtmlAssets",
-      "2017-11-18 at 02:06:51 Step: zipAssets",
-      "2017-11-18 at 02:06:51 Step: compileApp",
-      "2017-11-18 at 02:06:58 Step: copyLinksToGitHub",
-      "2017-11-18 at 02:06:58 Step: copyFilesIntoPositionOnWebServer",
+      "\n2017-11-20 at 19:48:41 Generate AppaAppsPhotoApp version 20171120-44 philiprbrenan/GoneFishing\n",
+      "2017-11-20 at 19:48:43 Step: parseSource",
+      "2017-11-20 at 19:48:43 <b>Good source file!</b>",
+      "2017-11-20 at 19:48:43 Step: loadAssets",
+      "2017-11-20 at 19:48:53 Step: multiplyPhotosByFacts",
+      "2017-11-20 at 19:48:53 Step: genJavaManifest",
+      "2017-11-20 at 19:48:53 Step: genJsonManifest",
+      "2017-11-20 at 19:48:53 Step: genGameHtml",
+      "2017-11-20 at 19:48:53 Step: genHtmlAssets",
+      "2017-11-20 at 19:48:53 Step: zipAssets",
+      "2017-11-20 at 19:48:54 Step: compileApp",
+      "2017-11-20 at 19:49:07 Step: copyLinksToGitHub",
+      "2017-11-20 at 19:49:09 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
