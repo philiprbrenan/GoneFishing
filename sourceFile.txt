@@ -3,7 +3,6 @@ app GoneFishing = Gone Fishing in the USA
   author = philiprbrenan
   email  = philiprbrenan@gmail.com
 # email  = bill.gearhart@ryffine.com
-  develop =    yes
 
 # Details of photo Blacktip shark.JPG
 #------------------------------------
