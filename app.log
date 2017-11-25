@@ -1,10 +1,9 @@
 Failed.
 
-2017-11-25 at 23:45:57 Generate AppaAppsPhotoApp version 20171124-1 philiprbrenan/GoneFishing
+2017-11-25 at 23:53:28 Generate AppaAppsPhotoApp version 20171124-1 philiprbrenan/GoneFishing
 
-2017-11-25 at 23:46:02 Step: parseSource
-2017-11-25 at 23:46:02 The app command name keyword is <b>GoneFishing</b> but it should be <b>philiprbrenan.GoneFishing</b>
- on line(s) 1-4
+2017-11-25 at 23:53:33 Step: parseSource
+2017-11-25 at 23:53:33 1 on line(s) 1-4
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -24,16 +23,16 @@ do {
                       ordered     => "never",
                       rightInARow => 6,
                       title       => "Gone Fishing in the USA",
-                      version     => "2017-11-25 at 23:46:02",
+                      version     => "2017-11-25 at 23:53:33",
                     }, "ParsedKeys"),
       start      => 1,
       title      => "Gone Fishing in the USA",
     }, "ParsedCmd"),
     error => 1,
     log => [
-      "\n2017-11-25 at 23:45:57 Generate AppaAppsPhotoApp version 20171124-1 philiprbrenan/GoneFishing\n",
-      "2017-11-25 at 23:46:02 Step: parseSource",
-      "2017-11-25 at 23:46:02 The app command name keyword is <b>GoneFishing</b> but it should be <b>philiprbrenan.GoneFishing</b>\n on line(s) 1-4",
+      "\n2017-11-25 at 23:53:28 Generate AppaAppsPhotoApp version 20171124-1 philiprbrenan/GoneFishing\n",
+      "2017-11-25 at 23:53:33 Step: parseSource",
+      "2017-11-25 at 23:53:33 1 on line(s) 1-4",
     ],
     parsedCmds => [
       'fix',
