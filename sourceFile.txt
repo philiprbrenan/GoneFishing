@@ -1,4 +1,4 @@
-app GoneFishing = Gone Fishing in the USA
+app GoneFishing  = Gone Fishing in the USA
   icon   = Striped Bass.jpg
   author = philiprbrenan
   email  = philiprbrenan@gmail.com
