@@ -1,20 +1,20 @@
 SUCCESS!
 
-2017-11-27 at 02:32:44 Generate AppaAppsPhotoApp version 20171126-111 philiprbrenan/GoneFishing
+2017-11-27 at 02:36:34 Generate AppaAppsPhotoApp version 20171126-222 philiprbrenan/GoneFishing
 
-2017-11-27 at 02:32:45 Step: parseSource
-2017-11-27 at 02:32:45 <b>Good source file!</b>
-2017-11-27 at 02:32:45 Step: loadAssets
-2017-11-27 at 02:32:55 0 new, 546 reused audio files
-2017-11-27 at 02:32:55 Step: multiplyPhotosByFacts
-2017-11-27 at 02:32:55 Step: genJavaManifest
-2017-11-27 at 02:32:55 Step: genJsonManifest
-2017-11-27 at 02:32:55 Step: genGameHtml
-2017-11-27 at 02:32:55 Step: genHtmlAssets
-2017-11-27 at 02:32:55 Step: zipAssets
-2017-11-27 at 02:32:55 Step: compileApp
-2017-11-27 at 02:33:08 Step: copyLinksToGitHub
-2017-11-27 at 02:33:09 Step: copyFilesIntoPositionOnWebServer
+2017-11-27 at 02:36:35 Step: parseSource
+2017-11-27 at 02:36:35 <b>Good source file!</b>
+2017-11-27 at 02:36:35 Step: loadAssets
+2017-11-27 at 02:36:45 0 new, 546 reused audio files
+2017-11-27 at 02:36:45 Step: multiplyPhotosByFacts
+2017-11-27 at 02:36:45 Step: genJavaManifest
+2017-11-27 at 02:36:45 Step: genJsonManifest
+2017-11-27 at 02:36:45 Step: genGameHtml
+2017-11-27 at 02:36:45 Step: genHtmlAssets
+2017-11-27 at 02:36:45 Step: zipAssets
+2017-11-27 at 02:36:45 Step: compileApp
+2017-11-27 at 02:36:56 Step: copyLinksToGitHub
+2017-11-27 at 02:36:58 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -40,7 +40,7 @@ do {
                                           "",
                                         ],
                        package       => "com.appaapps.photoapp.philiprbrenanGoneFishing",
-                       parameters    => "1511749975,philiprbrenan,GoneFishing,,http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/philiprbrenanGoneFishing.zip,GoneFishing - Gone Fishing in the USA",
+                       parameters    => "1511750205,philiprbrenan,GoneFishing,,http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/philiprbrenanGoneFishing.zip,GoneFishing - Gone Fishing in the USA",
                        permissions   => ["INTERNET", "ACCESS_NETWORK_STATE", "WRITE_EXTERNAL_STORAGE"],
                        platform      => "/home/phil/Android/sdk/platforms/android-25/",
                        platformTools => "/home/phil/Android/sdk/platform-tools/",
@@ -86,7 +86,7 @@ do {
                          rightInARow => 6,
                          speakers    => "Amy Brian Emma Geraint Ivy Joanna Joey Justin Kendra Kimberly Nicole Raveena Russell Salli",
                          title       => "Gone Fishing in the USA",
-                         version     => "2017-11-27 at 02:32:45",
+                         version     => "2017-11-27 at 02:36:35",
                        }, "ParsedKeys"),
                        start => 1,
                        title => "Gone Fishing in the USA",
@@ -95,20 +95,20 @@ do {
     error         => 0,
     iconFile      => "/home/phil/audioImageCache/images/StripedBass.jpg",
     log           => [
-                       "\n2017-11-27 at 02:32:44 Generate AppaAppsPhotoApp version 20171126-111 philiprbrenan/GoneFishing\n",
-                       "2017-11-27 at 02:32:45 Step: parseSource",
-                       "2017-11-27 at 02:32:45 <b>Good source file!</b>",
-                       "2017-11-27 at 02:32:45 Step: loadAssets",
-                       "2017-11-27 at 02:32:55 0 new, 546 reused audio files",
-                       "2017-11-27 at 02:32:55 Step: multiplyPhotosByFacts",
-                       "2017-11-27 at 02:32:55 Step: genJavaManifest",
-                       "2017-11-27 at 02:32:55 Step: genJsonManifest",
-                       "2017-11-27 at 02:32:55 Step: genGameHtml",
-                       "2017-11-27 at 02:32:55 Step: genHtmlAssets",
-                       "2017-11-27 at 02:32:55 Step: zipAssets",
-                       "2017-11-27 at 02:32:55 Step: compileApp",
-                       "2017-11-27 at 02:33:08 Step: copyLinksToGitHub",
-                       "2017-11-27 at 02:33:09 Step: copyFilesIntoPositionOnWebServer",
+                       "\n2017-11-27 at 02:36:34 Generate AppaAppsPhotoApp version 20171126-222 philiprbrenan/GoneFishing\n",
+                       "2017-11-27 at 02:36:35 Step: parseSource",
+                       "2017-11-27 at 02:36:35 <b>Good source file!</b>",
+                       "2017-11-27 at 02:36:35 Step: loadAssets",
+                       "2017-11-27 at 02:36:45 0 new, 546 reused audio files",
+                       "2017-11-27 at 02:36:45 Step: multiplyPhotosByFacts",
+                       "2017-11-27 at 02:36:45 Step: genJavaManifest",
+                       "2017-11-27 at 02:36:45 Step: genJsonManifest",
+                       "2017-11-27 at 02:36:45 Step: genGameHtml",
+                       "2017-11-27 at 02:36:45 Step: genHtmlAssets",
+                       "2017-11-27 at 02:36:45 Step: zipAssets",
+                       "2017-11-27 at 02:36:45 Step: compileApp",
+                       "2017-11-27 at 02:36:56 Step: copyLinksToGitHub",
+                       "2017-11-27 at 02:36:58 Step: copyFilesIntoPositionOnWebServer",
                      ],
     parsedCmds    => [
                        'fix',
