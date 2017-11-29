@@ -1,20 +1,20 @@
 SUCCESS!
 
-2017-11-29 at 19:38:51 Generate AppaAppsPhotoApp version 20171126-222 philiprbrenan/GoneFishing
+2017-11-29 at 19:55:53 Generate AppaAppsPhotoApp version 20171126-222 philiprbrenan/GoneFishing
 
-2017-11-29 at 19:38:55 Step: parseSource
-2017-11-29 at 19:38:55 <b>Good source file!</b>
-2017-11-29 at 19:38:55 Step: loadAssets
-2017-11-29 at 19:39:14 0 new, 546 reused audio files
-2017-11-29 at 19:39:14 Step: multiplyPhotosByFacts
-2017-11-29 at 19:39:14 Step: genJavaManifest
-2017-11-29 at 19:39:14 Step: genJsonManifest
-2017-11-29 at 19:39:14 Step: genGameHtml
-2017-11-29 at 19:39:14 Step: genHtmlAssets
-2017-11-29 at 19:39:14 Step: zipAssets
-2017-11-29 at 19:39:14 Step: compileApp
-2017-11-29 at 19:39:18 Step: copyLinksToGitHub
-2017-11-29 at 19:39:22 Step: copyFilesIntoPositionOnWebServer
+2017-11-29 at 19:55:58 Step: parseSource
+2017-11-29 at 19:55:58 <b>Good source file!</b>
+2017-11-29 at 19:55:58 Step: loadAssets
+2017-11-29 at 19:56:17 0 new, 546 reused audio files
+2017-11-29 at 19:56:17 Step: multiplyPhotosByFacts
+2017-11-29 at 19:56:17 Step: genJavaManifest
+2017-11-29 at 19:56:17 Step: genJsonManifest
+2017-11-29 at 19:56:17 Step: genGameHtml
+2017-11-29 at 19:56:17 Step: genHtmlAssets
+2017-11-29 at 19:56:17 Step: zipAssets
+2017-11-29 at 19:56:17 Step: compileApp
+2017-11-29 at 19:56:22 Step: copyLinksToGitHub
+2017-11-29 at 19:56:27 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -34,13 +34,13 @@ do {
                        log           => [
                                           "",
                                           "",
-                                          "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                                          "libpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                                           "",
                                           "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
                                           "",
                                         ],
                        package       => "com.appaapps.photoapp.philiprbrenanGoneFishing",
-                       parameters    => "1511984354,philiprbrenan,GoneFishing,,http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/philiprbrenanGoneFishing.zip,GoneFishing - Gone Fishing in the USA",
+                       parameters    => "1511985377,philiprbrenan,GoneFishing,,http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/philiprbrenanGoneFishing.zip,GoneFishing - Gone Fishing in the USA",
                        permissions   => ["INTERNET", "ACCESS_NETWORK_STATE", "WRITE_EXTERNAL_STORAGE"],
                        platform      => "/home/phil/Android/sdk/platforms/android-25/",
                        platformTools => "/home/phil/Android/sdk/platform-tools/",
@@ -86,7 +86,7 @@ do {
                          rightInARow => 6,
                          speakers    => "Amy Brian Emma Geraint Ivy Joanna Joey Justin Kendra Kimberly Nicole Raveena Russell Salli",
                          title       => "Gone Fishing in the USA",
-                         version     => "2017-11-29 at 19:38:55",
+                         version     => "2017-11-29 at 19:55:58",
                        }, "ParsedKeys"),
                        start => 1,
                        title => "Gone Fishing in the USA",
@@ -95,20 +95,20 @@ do {
     error         => 0,
     iconFile      => "/home/phil/audioImageCache/images/StripedBass.jpg",
     log           => [
-                       "\n2017-11-29 at 19:38:51 Generate AppaAppsPhotoApp version 20171126-222 philiprbrenan/GoneFishing\n",
-                       "2017-11-29 at 19:38:55 Step: parseSource",
-                       "2017-11-29 at 19:38:55 <b>Good source file!</b>",
-                       "2017-11-29 at 19:38:55 Step: loadAssets",
-                       "2017-11-29 at 19:39:14 0 new, 546 reused audio files",
-                       "2017-11-29 at 19:39:14 Step: multiplyPhotosByFacts",
-                       "2017-11-29 at 19:39:14 Step: genJavaManifest",
-                       "2017-11-29 at 19:39:14 Step: genJsonManifest",
-                       "2017-11-29 at 19:39:14 Step: genGameHtml",
-                       "2017-11-29 at 19:39:14 Step: genHtmlAssets",
-                       "2017-11-29 at 19:39:14 Step: zipAssets",
-                       "2017-11-29 at 19:39:14 Step: compileApp",
-                       "2017-11-29 at 19:39:18 Step: copyLinksToGitHub",
-                       "2017-11-29 at 19:39:22 Step: copyFilesIntoPositionOnWebServer",
+                       "\n2017-11-29 at 19:55:53 Generate AppaAppsPhotoApp version 20171126-222 philiprbrenan/GoneFishing\n",
+                       "2017-11-29 at 19:55:58 Step: parseSource",
+                       "2017-11-29 at 19:55:58 <b>Good source file!</b>",
+                       "2017-11-29 at 19:55:58 Step: loadAssets",
+                       "2017-11-29 at 19:56:17 0 new, 546 reused audio files",
+                       "2017-11-29 at 19:56:17 Step: multiplyPhotosByFacts",
+                       "2017-11-29 at 19:56:17 Step: genJavaManifest",
+                       "2017-11-29 at 19:56:17 Step: genJsonManifest",
+                       "2017-11-29 at 19:56:17 Step: genGameHtml",
+                       "2017-11-29 at 19:56:17 Step: genHtmlAssets",
+                       "2017-11-29 at 19:56:17 Step: zipAssets",
+                       "2017-11-29 at 19:56:17 Step: compileApp",
+                       "2017-11-29 at 19:56:22 Step: copyLinksToGitHub",
+                       "2017-11-29 at 19:56:27 Step: copyFilesIntoPositionOnWebServer",
                      ],
     parsedCmds    => [
                        'fix',
@@ -789,240 +789,342 @@ do {
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 0,
-                         parsedKeys => bless({ cmd => "photoFact", name => 0, title => 0 }, "ParsedKeys"),
-                         title => 0,
+                         name => "Shark.Blacktip",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Shark.Blacktip",
+                           title => "Shark.Blacktip.1",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Shark.Blacktip.1",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 0,
-                         parsedKeys => bless({ cmd => "photoFact", name => 0, title => 1 }, "ParsedKeys"),
-                         title => 1,
+                         name => "Shark.Blacktip",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Shark.Blacktip",
+                           title => "Shark.Blacktip.2",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Shark.Blacktip.2",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 0,
-                         parsedKeys => bless({ cmd => "photoFact", name => 0, title => 2 }, "ParsedKeys"),
-                         title => 2,
+                         name => "Shark.Blacktip",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Shark.Blacktip",
+                           title => "Shark.Blacktip.3",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Shark.Blacktip.3",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 0,
-                         parsedKeys => bless({ cmd => "photoFact", name => 0, title => 3 }, "ParsedKeys"),
-                         title => 3,
+                         name => "Shark.Blacktip",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Shark.Blacktip",
+                           title => "Shark.Blacktip.4",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Shark.Blacktip.4",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 0,
-                         parsedKeys => bless({ cmd => "photoFact", name => 0, title => 4 }, "ParsedKeys"),
-                         title => 4,
+                         name => "Shark.Blacktip",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Shark.Blacktip",
+                           title => "Shark.Blacktip.5",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Shark.Blacktip.5",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 0,
-                         parsedKeys => bless({ cmd => "photoFact", name => 0, title => 5 }, "ParsedKeys"),
-                         title => 5,
+                         name => "Shark.Blacktip",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Shark.Blacktip",
+                           title => "Shark.Blacktip.6",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Shark.Blacktip.6",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 1,
-                         parsedKeys => bless({ cmd => "photoFact", name => 1, title => 6 }, "ParsedKeys"),
-                         title => 6,
+                         name => "Trout.Brown",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Trout.Brown", title => "Trout" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Trout",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 1,
-                         parsedKeys => bless({ cmd => "photoFact", name => 1, title => 7 }, "ParsedKeys"),
-                         title => 7,
+                         name => "Trout.Brown",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Trout.Brown", title => "Trout.Brown.1" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Trout.Brown.1",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 1,
-                         parsedKeys => bless({ cmd => "photoFact", name => 1, title => 8 }, "ParsedKeys"),
-                         title => 8,
+                         name => "Trout.Brown",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Trout.Brown", title => "Trout.Brown.2" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Trout.Brown.2",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 1,
-                         parsedKeys => bless({ cmd => "photoFact", name => 1, title => 9 }, "ParsedKeys"),
-                         title => 9,
+                         name => "Trout.Brown",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Trout.Brown", title => "Trout.Brown.3" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Trout.Brown.3",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 2,
-                         parsedKeys => bless({ cmd => "photoFact", name => 2, title => 10 }, "ParsedKeys"),
-                         title => 10,
+                         name => "Jack.Crevalle",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Jack.Crevalle", title => "Jack.Crevalle.1" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Jack.Crevalle.1",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 2,
-                         parsedKeys => bless({ cmd => "photoFact", name => 2, title => 11 }, "ParsedKeys"),
-                         title => 11,
+                         name => "Jack.Crevalle",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Jack.Crevalle", title => "Jack.Crevalle.2" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Jack.Crevalle.2",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 2,
-                         parsedKeys => bless({ cmd => "photoFact", name => 2, title => 12 }, "ParsedKeys"),
-                         title => 12,
+                         name => "Jack.Crevalle",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Jack.Crevalle", title => "Jack.Crevalle.3" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Jack.Crevalle.3",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 2,
-                         parsedKeys => bless({ cmd => "photoFact", name => 2, title => 13 }, "ParsedKeys"),
-                         title => 13,
+                         name => "Jack.Crevalle",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Jack.Crevalle", title => "Jack.Crevalle.4" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Jack.Crevalle.4",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 2,
-                         parsedKeys => bless({ cmd => "photoFact", name => 2, title => 14 }, "ParsedKeys"),
-                         title => 14,
+                         name => "Jack.Crevalle",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Jack.Crevalle", title => "Jack.Crevalle.5" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Jack.Crevalle.5",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 2,
-                         parsedKeys => bless({ cmd => "photoFact", name => 2, title => 15 }, "ParsedKeys"),
-                         title => 15,
+                         name => "Jack.Crevalle",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Jack.Crevalle", title => "Jack.Crevalle.6" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Jack.Crevalle.6",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 3,
-                         parsedKeys => bless({ cmd => "photoFact", name => 3, title => 16 }, "ParsedKeys"),
-                         title => 16,
+                         name => "Bass.Smallmouth",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Bass.Smallmouth",
+                           title => "Bass.Smallmouth.1",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Bass.Smallmouth.1",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 3,
-                         parsedKeys => bless({ cmd => "photoFact", name => 3, title => 17 }, "ParsedKeys"),
-                         title => 17,
+                         name => "Bass.Smallmouth",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Bass.Smallmouth",
+                           title => "Bass.Smallmouth.2",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Bass.Smallmouth.2",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 3,
-                         parsedKeys => bless({ cmd => "photoFact", name => 3, title => 18 }, "ParsedKeys"),
-                         title => 18,
+                         name => "Bass.Smallmouth",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Bass.Smallmouth",
+                           title => "Bass.Smallmouth.3",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Bass.Smallmouth.3",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 3,
-                         parsedKeys => bless({ cmd => "photoFact", name => 3, title => 19 }, "ParsedKeys"),
-                         title => 19,
+                         name => "Bass.Smallmouth",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Bass.Smallmouth",
+                           title => "Bass.Smallmouth.4",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Bass.Smallmouth.4",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 3,
-                         parsedKeys => bless({ cmd => "photoFact", name => 3, title => 20 }, "ParsedKeys"),
-                         title => 20,
+                         name => "Bass.Smallmouth",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Bass.Smallmouth",
+                           title => "Bass.Smallmouth.5",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Bass.Smallmouth.5",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 3,
-                         parsedKeys => bless({ cmd => "photoFact", name => 3, title => 21 }, "ParsedKeys"),
-                         title => 21,
+                         name => "Bass.Smallmouth",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Bass.Smallmouth",
+                           title => "Bass.Smallmouth.6",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Bass.Smallmouth.6",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 4,
-                         parsedKeys => bless({ cmd => "photoFact", name => 4, title => 6 }, "ParsedKeys"),
-                         title => 6,
+                         name => "Trout.Speckled",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Trout.Speckled", title => "Trout" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Trout",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 4,
-                         parsedKeys => bless({ cmd => "photoFact", name => 4, title => 22 }, "ParsedKeys"),
-                         title => 22,
+                         name => "Trout.Speckled",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Trout.Speckled",
+                           title => "Trout.Speckled.1",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Trout.Speckled.1",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 4,
-                         parsedKeys => bless({ cmd => "photoFact", name => 4, title => 23 }, "ParsedKeys"),
-                         title => 23,
+                         name => "Trout.Speckled",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Trout.Speckled",
+                           title => "Trout.Speckled.2",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Trout.Speckled.2",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 4,
-                         parsedKeys => bless({ cmd => "photoFact", name => 4, title => 24 }, "ParsedKeys"),
-                         title => 24,
+                         name => "Trout.Speckled",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Trout.Speckled",
+                           title => "Trout.Speckled.3",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Trout.Speckled.3",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 4,
-                         parsedKeys => bless({ cmd => "photoFact", name => 4, title => 25 }, "ParsedKeys"),
-                         title => 25,
+                         name => "Trout.Speckled",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Trout.Speckled",
+                           title => "Trout.Speckled.4",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Trout.Speckled.4",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 4,
-                         parsedKeys => bless({ cmd => "photoFact", name => 4, title => 26 }, "ParsedKeys"),
-                         title => 26,
+                         name => "Trout.Speckled",
+                         parsedKeys => bless({
+                           cmd   => "photoFact",
+                           name  => "Trout.Speckled",
+                           title => "Trout.Speckled.5",
+                         }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Trout.Speckled.5",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 5,
-                         parsedKeys => bless({ cmd => "photoFact", name => 5, title => 27 }, "ParsedKeys"),
-                         title => 27,
+                         name => "Bass.Striped",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Bass.Striped", title => "Bass.Striped.1" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Bass.Striped.1",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 5,
-                         parsedKeys => bless({ cmd => "photoFact", name => 5, title => 28 }, "ParsedKeys"),
-                         title => 28,
+                         name => "Bass.Striped",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Bass.Striped", title => "Bass.Striped.2" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Bass.Striped.2",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 5,
-                         parsedKeys => bless({ cmd => "photoFact", name => 5, title => 29 }, "ParsedKeys"),
-                         title => 29,
+                         name => "Bass.Striped",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Bass.Striped", title => "Bass.Striped.3" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Bass.Striped.3",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 5,
-                         parsedKeys => bless({ cmd => "photoFact", name => 5, title => 30 }, "ParsedKeys"),
-                         title => 30,
+                         name => "Bass.Striped",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Bass.Striped", title => "Bass.Striped.4" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Bass.Striped.4",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 5,
-                         parsedKeys => bless({ cmd => "photoFact", name => 5, title => 31 }, "ParsedKeys"),
-                         title => 31,
+                         name => "Bass.Striped",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Bass.Striped", title => "Bass.Striped.5" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Bass.Striped.5",
                          titleFile => undef,
                        }, "ParsedCmd"),
                        bless({
                          cmd => "photoFact",
-                         name => 5,
-                         parsedKeys => bless({ cmd => "photoFact", name => 5, title => 32 }, "ParsedKeys"),
-                         title => 32,
+                         name => "Bass.Striped",
+                         parsedKeys => bless({ cmd => "photoFact", name => "Bass.Striped", title => "Bass.Striped.6" }, "ParsedKeys"),
+                         photoFact => ['fix', 'fix'],
+                         title => "Bass.Striped.6",
                          titleFile => undef,
                        }, "ParsedCmd"),
                      ],
@@ -1032,5 +1134,73 @@ do {
     step          => "completed",
   }, "Manifest");
   $a->{parsedCmds}[0] = $a->{app};
+  $a->{parsedCmds}[40]{photoFact}[0] = $a->{parsedCmds}[1];
+  $a->{parsedCmds}[40]{photoFact}[1] = $a->{parsedCmds}[2];
+  $a->{parsedCmds}[41]{photoFact}[0] = $a->{parsedCmds}[1];
+  $a->{parsedCmds}[41]{photoFact}[1] = $a->{parsedCmds}[3];
+  $a->{parsedCmds}[42]{photoFact}[0] = $a->{parsedCmds}[1];
+  $a->{parsedCmds}[42]{photoFact}[1] = $a->{parsedCmds}[4];
+  $a->{parsedCmds}[43]{photoFact}[0] = $a->{parsedCmds}[1];
+  $a->{parsedCmds}[43]{photoFact}[1] = $a->{parsedCmds}[5];
+  $a->{parsedCmds}[44]{photoFact}[0] = $a->{parsedCmds}[1];
+  $a->{parsedCmds}[44]{photoFact}[1] = $a->{parsedCmds}[6];
+  $a->{parsedCmds}[45]{photoFact}[0] = $a->{parsedCmds}[1];
+  $a->{parsedCmds}[45]{photoFact}[1] = $a->{parsedCmds}[7];
+  $a->{parsedCmds}[46]{photoFact}[0] = $a->{parsedCmds}[8];
+  $a->{parsedCmds}[46]{photoFact}[1] = $a->{parsedCmds}[9];
+  $a->{parsedCmds}[47]{photoFact}[0] = $a->{parsedCmds}[8];
+  $a->{parsedCmds}[47]{photoFact}[1] = $a->{parsedCmds}[10];
+  $a->{parsedCmds}[48]{photoFact}[0] = $a->{parsedCmds}[8];
+  $a->{parsedCmds}[48]{photoFact}[1] = $a->{parsedCmds}[11];
+  $a->{parsedCmds}[49]{photoFact}[0] = $a->{parsedCmds}[8];
+  $a->{parsedCmds}[49]{photoFact}[1] = $a->{parsedCmds}[12];
+  $a->{parsedCmds}[50]{photoFact}[0] = $a->{parsedCmds}[13];
+  $a->{parsedCmds}[50]{photoFact}[1] = $a->{parsedCmds}[14];
+  $a->{parsedCmds}[51]{photoFact}[0] = $a->{parsedCmds}[13];
+  $a->{parsedCmds}[51]{photoFact}[1] = $a->{parsedCmds}[15];
+  $a->{parsedCmds}[52]{photoFact}[0] = $a->{parsedCmds}[13];
+  $a->{parsedCmds}[52]{photoFact}[1] = $a->{parsedCmds}[16];
+  $a->{parsedCmds}[53]{photoFact}[0] = $a->{parsedCmds}[13];
+  $a->{parsedCmds}[53]{photoFact}[1] = $a->{parsedCmds}[17];
+  $a->{parsedCmds}[54]{photoFact}[0] = $a->{parsedCmds}[13];
+  $a->{parsedCmds}[54]{photoFact}[1] = $a->{parsedCmds}[18];
+  $a->{parsedCmds}[55]{photoFact}[0] = $a->{parsedCmds}[13];
+  $a->{parsedCmds}[55]{photoFact}[1] = $a->{parsedCmds}[19];
+  $a->{parsedCmds}[56]{photoFact}[0] = $a->{parsedCmds}[20];
+  $a->{parsedCmds}[56]{photoFact}[1] = $a->{parsedCmds}[21];
+  $a->{parsedCmds}[57]{photoFact}[0] = $a->{parsedCmds}[20];
+  $a->{parsedCmds}[57]{photoFact}[1] = $a->{parsedCmds}[22];
+  $a->{parsedCmds}[58]{photoFact}[0] = $a->{parsedCmds}[20];
+  $a->{parsedCmds}[58]{photoFact}[1] = $a->{parsedCmds}[23];
+  $a->{parsedCmds}[59]{photoFact}[0] = $a->{parsedCmds}[20];
+  $a->{parsedCmds}[59]{photoFact}[1] = $a->{parsedCmds}[24];
+  $a->{parsedCmds}[60]{photoFact}[0] = $a->{parsedCmds}[20];
+  $a->{parsedCmds}[60]{photoFact}[1] = $a->{parsedCmds}[25];
+  $a->{parsedCmds}[61]{photoFact}[0] = $a->{parsedCmds}[20];
+  $a->{parsedCmds}[61]{photoFact}[1] = $a->{parsedCmds}[26];
+  $a->{parsedCmds}[62]{photoFact}[0] = $a->{parsedCmds}[27];
+  $a->{parsedCmds}[62]{photoFact}[1] = $a->{parsedCmds}[9];
+  $a->{parsedCmds}[63]{photoFact}[0] = $a->{parsedCmds}[27];
+  $a->{parsedCmds}[63]{photoFact}[1] = $a->{parsedCmds}[28];
+  $a->{parsedCmds}[64]{photoFact}[0] = $a->{parsedCmds}[27];
+  $a->{parsedCmds}[64]{photoFact}[1] = $a->{parsedCmds}[29];
+  $a->{parsedCmds}[65]{photoFact}[0] = $a->{parsedCmds}[27];
+  $a->{parsedCmds}[65]{photoFact}[1] = $a->{parsedCmds}[30];
+  $a->{parsedCmds}[66]{photoFact}[0] = $a->{parsedCmds}[27];
+  $a->{parsedCmds}[66]{photoFact}[1] = $a->{parsedCmds}[31];
+  $a->{parsedCmds}[67]{photoFact}[0] = $a->{parsedCmds}[27];
+  $a->{parsedCmds}[67]{photoFact}[1] = $a->{parsedCmds}[32];
+  $a->{parsedCmds}[68]{photoFact}[0] = $a->{parsedCmds}[33];
+  $a->{parsedCmds}[68]{photoFact}[1] = $a->{parsedCmds}[34];
+  $a->{parsedCmds}[69]{photoFact}[0] = $a->{parsedCmds}[33];
+  $a->{parsedCmds}[69]{photoFact}[1] = $a->{parsedCmds}[35];
+  $a->{parsedCmds}[70]{photoFact}[0] = $a->{parsedCmds}[33];
+  $a->{parsedCmds}[70]{photoFact}[1] = $a->{parsedCmds}[36];
+  $a->{parsedCmds}[71]{photoFact}[0] = $a->{parsedCmds}[33];
+  $a->{parsedCmds}[71]{photoFact}[1] = $a->{parsedCmds}[37];
+  $a->{parsedCmds}[72]{photoFact}[0] = $a->{parsedCmds}[33];
+  $a->{parsedCmds}[72]{photoFact}[1] = $a->{parsedCmds}[38];
+  $a->{parsedCmds}[73]{photoFact}[0] = $a->{parsedCmds}[33];
+  $a->{parsedCmds}[73]{photoFact}[1] = $a->{parsedCmds}[39];
   $a;
 }
