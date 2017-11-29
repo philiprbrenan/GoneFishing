@@ -1,20 +1,20 @@
 SUCCESS!
 
-2017-11-29 at 19:55:53 Generate AppaAppsPhotoApp version 20171126-222 philiprbrenan/GoneFishing
+2017-11-29 at 20:59:07 Generate AppaAppsPhotoApp version 20171126-222 philiprbrenan/GoneFishing
 
-2017-11-29 at 19:55:58 Step: parseSource
-2017-11-29 at 19:55:58 <b>Good source file!</b>
-2017-11-29 at 19:55:58 Step: loadAssets
-2017-11-29 at 19:56:17 0 new, 546 reused audio files
-2017-11-29 at 19:56:17 Step: multiplyPhotosByFacts
-2017-11-29 at 19:56:17 Step: genJavaManifest
-2017-11-29 at 19:56:17 Step: genJsonManifest
-2017-11-29 at 19:56:17 Step: genGameHtml
-2017-11-29 at 19:56:17 Step: genHtmlAssets
-2017-11-29 at 19:56:17 Step: zipAssets
-2017-11-29 at 19:56:17 Step: compileApp
-2017-11-29 at 19:56:22 Step: copyLinksToGitHub
-2017-11-29 at 19:56:27 Step: copyFilesIntoPositionOnWebServer
+2017-11-29 at 20:59:12 Step: parseSource
+2017-11-29 at 20:59:12 <b>Good source file!</b>
+2017-11-29 at 20:59:12 Step: loadAssets
+2017-11-29 at 20:59:33 0 new, 546 reused audio files
+2017-11-29 at 20:59:33 Step: multiplyPhotosByFacts
+2017-11-29 at 20:59:33 Step: genJavaManifest
+2017-11-29 at 20:59:33 Step: genJsonManifest
+2017-11-29 at 20:59:33 Step: genGameHtml
+2017-11-29 at 20:59:33 Step: genHtmlAssets
+2017-11-29 at 20:59:33 Step: zipAssets
+2017-11-29 at 20:59:33 Step: compileApp
+2017-11-29 at 20:59:38 Step: copyLinksToGitHub
+2017-11-29 at 20:59:43 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -34,13 +34,13 @@ do {
                        log           => [
                                           "",
                                           "",
-                                          "libpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                                          "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                                           "",
                                           "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
                                           "",
                                         ],
                        package       => "com.appaapps.photoapp.philiprbrenanGoneFishing",
-                       parameters    => "1511985377,philiprbrenan,GoneFishing,,http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/philiprbrenanGoneFishing.zip,GoneFishing - Gone Fishing in the USA",
+                       parameters    => "1511989173,philiprbrenan,GoneFishing,,http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/philiprbrenanGoneFishing.zip,GoneFishing - Gone Fishing in the USA",
                        permissions   => ["INTERNET", "ACCESS_NETWORK_STATE", "WRITE_EXTERNAL_STORAGE"],
                        platform      => "/home/phil/Android/sdk/platforms/android-25/",
                        platformTools => "/home/phil/Android/sdk/platform-tools/",
@@ -86,7 +86,7 @@ do {
                          rightInARow => 6,
                          speakers    => "Amy Brian Emma Geraint Ivy Joanna Joey Justin Kendra Kimberly Nicole Raveena Russell Salli",
                          title       => "Gone Fishing in the USA",
-                         version     => "2017-11-29 at 19:55:58",
+                         version     => "2017-11-29 at 20:59:12",
                        }, "ParsedKeys"),
                        start => 1,
                        title => "Gone Fishing in the USA",
@@ -95,20 +95,20 @@ do {
     error         => 0,
     iconFile      => "/home/phil/audioImageCache/images/StripedBass.jpg",
     log           => [
-                       "\n2017-11-29 at 19:55:53 Generate AppaAppsPhotoApp version 20171126-222 philiprbrenan/GoneFishing\n",
-                       "2017-11-29 at 19:55:58 Step: parseSource",
-                       "2017-11-29 at 19:55:58 <b>Good source file!</b>",
-                       "2017-11-29 at 19:55:58 Step: loadAssets",
-                       "2017-11-29 at 19:56:17 0 new, 546 reused audio files",
-                       "2017-11-29 at 19:56:17 Step: multiplyPhotosByFacts",
-                       "2017-11-29 at 19:56:17 Step: genJavaManifest",
-                       "2017-11-29 at 19:56:17 Step: genJsonManifest",
-                       "2017-11-29 at 19:56:17 Step: genGameHtml",
-                       "2017-11-29 at 19:56:17 Step: genHtmlAssets",
-                       "2017-11-29 at 19:56:17 Step: zipAssets",
-                       "2017-11-29 at 19:56:17 Step: compileApp",
-                       "2017-11-29 at 19:56:22 Step: copyLinksToGitHub",
-                       "2017-11-29 at 19:56:27 Step: copyFilesIntoPositionOnWebServer",
+                       "\n2017-11-29 at 20:59:07 Generate AppaAppsPhotoApp version 20171126-222 philiprbrenan/GoneFishing\n",
+                       "2017-11-29 at 20:59:12 Step: parseSource",
+                       "2017-11-29 at 20:59:12 <b>Good source file!</b>",
+                       "2017-11-29 at 20:59:12 Step: loadAssets",
+                       "2017-11-29 at 20:59:33 0 new, 546 reused audio files",
+                       "2017-11-29 at 20:59:33 Step: multiplyPhotosByFacts",
+                       "2017-11-29 at 20:59:33 Step: genJavaManifest",
+                       "2017-11-29 at 20:59:33 Step: genJsonManifest",
+                       "2017-11-29 at 20:59:33 Step: genGameHtml",
+                       "2017-11-29 at 20:59:33 Step: genHtmlAssets",
+                       "2017-11-29 at 20:59:33 Step: zipAssets",
+                       "2017-11-29 at 20:59:33 Step: compileApp",
+                       "2017-11-29 at 20:59:38 Step: copyLinksToGitHub",
+                       "2017-11-29 at 20:59:43 Step: copyFilesIntoPositionOnWebServer",
                      ],
     parsedCmds    => [
                        'fix',
@@ -120,6 +120,7 @@ do {
                          parsedKeys => bless({
                            cmd       => "photo",
                            height    => 1536,
+                           level     => 1,
                            name      => "Shark.Blacktip",
                            title     => "Blacktip shark",
                            titleFile => "Blacktipshark",
@@ -240,6 +241,7 @@ do {
                          parsedKeys => bless({
                            cmd       => "photo",
                            height    => 3264,
+                           level     => 1,
                            name      => "Trout.Brown",
                            title     => "Brown Trout",
                            titleFile => "BrownTrout",
@@ -328,6 +330,7 @@ do {
                          parsedKeys => bless({
                            cmd       => "photo",
                            height    => 2048,
+                           level     => 1,
                            name      => "Jack.Crevalle",
                            title     => "Jack Crevalle",
                            titleFile => "JackCrevalle",
@@ -448,6 +451,7 @@ do {
                          parsedKeys => bless({
                            cmd       => "photo",
                            height    => 1840,
+                           level     => 1,
                            name      => "Bass.Smallmouth",
                            title     => "Smallmouth Bass",
                            titleFile => "SmallmouthBass",
@@ -570,6 +574,7 @@ do {
                          parsedKeys => bless({
                            cmd       => "photo",
                            height    => 3024,
+                           level     => 1,
                            name      => "Trout.Speckled",
                            title     => "Speckled Trout",
                            titleFile => "SpeckledTrout",
@@ -673,6 +678,7 @@ do {
                          parsedKeys => bless({
                            cmd       => "photo",
                            height    => 3264,
+                           level     => 1,
                            name      => "Bass.Striped",
                            title     => "Striped Bass",
                            titleFile => "StripedBass",
