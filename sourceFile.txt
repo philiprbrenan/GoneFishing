@@ -2,6 +2,7 @@ app GoneFishing  = Gone Fishing in the USA
   icon   = Striped Bass.jpg
   author = philiprbrenan
   maximages = 8
+  speakers = Amy
   email  = philiprbrenan@gmail.com
 # email  = bill.gearhart@ryffine.com
 
