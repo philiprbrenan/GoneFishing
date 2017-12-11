@@ -1,22 +1,20 @@
 SUCCESS!
 
-2017-12-10 at 20:23:58 Generate AppaAppsPhotoApp version 20171205-1 philiprbrenan/GoneFishing
+2017-12-11 at 11:15:02 Generate AppaAppsPhotoApp version 20171205-1 philiprbrenan/GoneFishing
 
-2017-12-10 at 20:24:04 Step: parseSource
-2017-12-10 at 20:24:04 <b>Good source file!</b>
-2017-12-10 at 20:24:04 Step: loadAssets
-2017-12-10 at 20:24:20 0 new, 39 reused audio files
-2017-12-10 at 20:24:20 Step: multiplyPhotosByFacts
-2017-12-10 at 20:24:20 Step: genJavaManifest
-2017-12-10 at 20:24:20 Step: genJsonManifest
-2017-12-10 at 20:24:20 Step: genGameHtml
-2017-12-10 at 20:24:20 Step: genHtmlAssets
-2017-12-10 at 20:24:20 Step: zipAssets
-2017-12-10 at 20:24:20 Zip file is only 6582 bytes which is small?
-
-2017-12-10 at 20:24:20 Step: compileApp
-2017-12-10 at 20:24:26 Step: copyLinksToGitHub
-2017-12-10 at 20:24:32 Step: copyFilesIntoPositionOnWebServer
+2017-12-11 at 11:15:06 Step: parseSource
+2017-12-11 at 11:15:06 <b>Good source file!</b>
+2017-12-11 at 11:15:06 Step: loadAssets
+2017-12-11 at 11:15:10 0 new, 39 reused audio files
+2017-12-11 at 11:15:10 Step: multiplyPhotosByFacts
+2017-12-11 at 11:15:10 Step: genJavaManifest
+2017-12-11 at 11:15:10 Step: genJsonManifest
+2017-12-11 at 11:15:10 Step: genGameHtml
+2017-12-11 at 11:15:10 Step: genHtmlAssets
+2017-12-11 at 11:15:10 Step: zipAssets
+2017-12-11 at 11:15:10 Step: compileApp
+2017-12-11 at 11:15:15 Step: copyLinksToGitHub
+2017-12-11 at 11:15:19 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -42,7 +40,7 @@ do {
                                           "",
                                         ],
                        package       => "com.appaapps.photoapp.philiprbrenanGoneFishing",
-                       parameters    => "1512937460,philiprbrenan,GoneFishing,,http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/philiprbrenanGoneFishing.zip,Gone Fishing in the USA",
+                       parameters    => "1512990910,philiprbrenan,GoneFishing,,http://www.appaapps.com/users/philiprbrenan/GoneFishing/zip/philiprbrenanGoneFishing.zip,Gone Fishing in the USA",
                        permissions   => ["INTERNET", "ACCESS_NETWORK_STATE", "WRITE_EXTERNAL_STORAGE"],
                        platform      => "/home/phil/Android/sdk/platforms/android-25/",
                        platformTools => "/home/phil/Android/sdk/platform-tools/",
@@ -70,7 +68,7 @@ do {
                                         ],
                        title         => "Gone Fishing in the USA",
                        verifyApk     => undef,
-                       version       => 20171210,
+                       version       => 20171211,
                      }, "Android::Build"),
     app           => bless({
                        cmd => "app",
@@ -85,13 +83,12 @@ do {
                          fullNameOnGooglePlay => undef,
                          icon                 => "Striped Bass.jpg",
                          language             => "en",
-                         maximages            => 8,
+                         maxImages            => 8,
                          name                 => "GoneFishing",
                          ordered              => "never",
                          rightInARow          => 7,
                          speakers             => "Amy",
                          title                => "Gone Fishing in the USA",
-                         version              => "2017-12-10 at 20:24:04",
                        }, "ParsedKeys"),
                        start => 1,
                        title => "Gone Fishing in the USA",
@@ -100,21 +97,20 @@ do {
     error         => 0,
     iconFile      => "/home/phil/audioImageCache/images/StripedBass.jpg",
     log           => [
-                       "\n2017-12-10 at 20:23:58 Generate AppaAppsPhotoApp version 20171205-1 philiprbrenan/GoneFishing\n",
-                       "2017-12-10 at 20:24:04 Step: parseSource",
-                       "2017-12-10 at 20:24:04 <b>Good source file!</b>",
-                       "2017-12-10 at 20:24:04 Step: loadAssets",
-                       "2017-12-10 at 20:24:20 0 new, 39 reused audio files",
-                       "2017-12-10 at 20:24:20 Step: multiplyPhotosByFacts",
-                       "2017-12-10 at 20:24:20 Step: genJavaManifest",
-                       "2017-12-10 at 20:24:20 Step: genJsonManifest",
-                       "2017-12-10 at 20:24:20 Step: genGameHtml",
-                       "2017-12-10 at 20:24:20 Step: genHtmlAssets",
-                       "2017-12-10 at 20:24:20 Step: zipAssets",
-                       "2017-12-10 at 20:24:20 Zip file is only 6582 bytes which is small?\n",
-                       "2017-12-10 at 20:24:20 Step: compileApp",
-                       "2017-12-10 at 20:24:26 Step: copyLinksToGitHub",
-                       "2017-12-10 at 20:24:32 Step: copyFilesIntoPositionOnWebServer",
+                       "\n2017-12-11 at 11:15:02 Generate AppaAppsPhotoApp version 20171205-1 philiprbrenan/GoneFishing\n",
+                       "2017-12-11 at 11:15:06 Step: parseSource",
+                       "2017-12-11 at 11:15:06 <b>Good source file!</b>",
+                       "2017-12-11 at 11:15:06 Step: loadAssets",
+                       "2017-12-11 at 11:15:10 0 new, 39 reused audio files",
+                       "2017-12-11 at 11:15:10 Step: multiplyPhotosByFacts",
+                       "2017-12-11 at 11:15:10 Step: genJavaManifest",
+                       "2017-12-11 at 11:15:10 Step: genJsonManifest",
+                       "2017-12-11 at 11:15:10 Step: genGameHtml",
+                       "2017-12-11 at 11:15:10 Step: genHtmlAssets",
+                       "2017-12-11 at 11:15:10 Step: zipAssets",
+                       "2017-12-11 at 11:15:10 Step: compileApp",
+                       "2017-12-11 at 11:15:15 Step: copyLinksToGitHub",
+                       "2017-12-11 at 11:15:19 Step: copyFilesIntoPositionOnWebServer",
                      ],
     parsedCmds    => [
                        'fix',
