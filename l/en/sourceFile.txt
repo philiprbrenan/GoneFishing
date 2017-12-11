@@ -1,4 +1,4 @@
-app GoneFishing  = Gone Fishing in the USA
+app GoneFishing.l.en  = Gone Fishing in the USA
   icon   = Striped Bass.jpg
   author = philiprbrenan
   maximages = 8
