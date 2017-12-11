@@ -1,20 +1,20 @@
 SUCCESS!
 
-2017-12-11 at 18:27:40 Generate AppaAppsPhotoApp version 20171205-1 philiprbrenan/GoneFishing/l/en
+2017-12-11 at 18:37:48 Generate AppaAppsPhotoApp version 20171205-1 philiprbrenan/GoneFishing/l/en
 
-2017-12-11 at 18:27:44 Step: parseSource
-2017-12-11 at 18:27:44 <b>Good source file!</b>
-2017-12-11 at 18:27:44 Step: loadAssets
-2017-12-11 at 18:27:50 0 new, 39 reused audio files
-2017-12-11 at 18:27:50 Step: multiplyPhotosByFacts
-2017-12-11 at 18:27:50 Step: genJavaManifest
-2017-12-11 at 18:27:50 Step: genJsonManifest
-2017-12-11 at 18:27:50 Step: genGameHtml
-2017-12-11 at 18:27:50 Step: genHtmlAssets
-2017-12-11 at 18:27:50 Step: zipAssets
-2017-12-11 at 18:27:50 Step: compileApp
-2017-12-11 at 18:27:57 Step: copyLinksToGitHub
-2017-12-11 at 18:28:01 Step: copyFilesIntoPositionOnWebServer
+2017-12-11 at 18:37:52 Step: parseSource
+2017-12-11 at 18:37:52 <b>Good source file!</b>
+2017-12-11 at 18:37:52 Step: loadAssets
+2017-12-11 at 18:37:58 0 new, 39 reused audio files
+2017-12-11 at 18:37:58 Step: multiplyPhotosByFacts
+2017-12-11 at 18:37:58 Step: genJavaManifest
+2017-12-11 at 18:37:58 Step: genJsonManifest
+2017-12-11 at 18:37:58 Step: genGameHtml
+2017-12-11 at 18:37:58 Step: genHtmlAssets
+2017-12-11 at 18:37:58 Step: zipAssets
+2017-12-11 at 18:37:58 Step: compileApp
+2017-12-11 at 18:38:05 Step: copyLinksToGitHub
+2017-12-11 at 18:38:09 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -40,7 +40,7 @@ do {
                                           "",
                                         ],
                        package       => "com.appaapps.photoapp.philiprbrenanGoneFishinglen",
-                       parameters    => "1513016870,philiprbrenan,GoneFishing,l/en,http://www.appaapps.com,Gone Fishing in the USA",
+                       parameters    => "1513017478,philiprbrenan,GoneFishing,l/en,http://www.appaapps.com,Gone Fishing in the USA",
                        permissions   => ["INTERNET", "ACCESS_NETWORK_STATE", "WRITE_EXTERNAL_STORAGE"],
                        platform      => "/home/phil/Android/sdk/platforms/android-25/",
                        platformTools => "/home/phil/Android/sdk/platform-tools/",
@@ -98,20 +98,20 @@ do {
     error         => 0,
     iconFile      => "/home/phil/audioImageCache/images/StripedBass.jpg",
     log           => [
-                       "\n2017-12-11 at 18:27:40 Generate AppaAppsPhotoApp version 20171205-1 philiprbrenan/GoneFishing/l/en\n",
-                       "2017-12-11 at 18:27:44 Step: parseSource",
-                       "2017-12-11 at 18:27:44 <b>Good source file!</b>",
-                       "2017-12-11 at 18:27:44 Step: loadAssets",
-                       "2017-12-11 at 18:27:50 0 new, 39 reused audio files",
-                       "2017-12-11 at 18:27:50 Step: multiplyPhotosByFacts",
-                       "2017-12-11 at 18:27:50 Step: genJavaManifest",
-                       "2017-12-11 at 18:27:50 Step: genJsonManifest",
-                       "2017-12-11 at 18:27:50 Step: genGameHtml",
-                       "2017-12-11 at 18:27:50 Step: genHtmlAssets",
-                       "2017-12-11 at 18:27:50 Step: zipAssets",
-                       "2017-12-11 at 18:27:50 Step: compileApp",
-                       "2017-12-11 at 18:27:57 Step: copyLinksToGitHub",
-                       "2017-12-11 at 18:28:01 Step: copyFilesIntoPositionOnWebServer",
+                       "\n2017-12-11 at 18:37:48 Generate AppaAppsPhotoApp version 20171205-1 philiprbrenan/GoneFishing/l/en\n",
+                       "2017-12-11 at 18:37:52 Step: parseSource",
+                       "2017-12-11 at 18:37:52 <b>Good source file!</b>",
+                       "2017-12-11 at 18:37:52 Step: loadAssets",
+                       "2017-12-11 at 18:37:58 0 new, 39 reused audio files",
+                       "2017-12-11 at 18:37:58 Step: multiplyPhotosByFacts",
+                       "2017-12-11 at 18:37:58 Step: genJavaManifest",
+                       "2017-12-11 at 18:37:58 Step: genJsonManifest",
+                       "2017-12-11 at 18:37:58 Step: genGameHtml",
+                       "2017-12-11 at 18:37:58 Step: genHtmlAssets",
+                       "2017-12-11 at 18:37:58 Step: zipAssets",
+                       "2017-12-11 at 18:37:58 Step: compileApp",
+                       "2017-12-11 at 18:38:05 Step: copyLinksToGitHub",
+                       "2017-12-11 at 18:38:09 Step: copyFilesIntoPositionOnWebServer",
                      ],
     parsedCmds    => [
                        'fix',
