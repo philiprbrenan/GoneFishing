@@ -1,9 +1,9 @@
 Failed.
 
-2017-12-11 at 18:03:54 Generate AppaAppsPhotoApp version 20171205-1 philiprbrenan/GoneFishing/l/en
+2017-12-11 at 18:04:41 Generate AppaAppsPhotoApp version 20171205-1 philiprbrenan/GoneFishing/l/en
 
-2017-12-11 at 18:03:56 Step: parseSource
-2017-12-11 at 18:03:56 The app command name keyword is <b>=GoneFishing=</b> but it should be <b>=GoneFishing.l.en=</b>
+2017-12-11 at 18:04:45 Step: parseSource
+2017-12-11 at 18:04:45 The app command name keyword is <b>=GoneFishing=</b> but it should be <b>=GoneFishing.l.en=</b>
  on line(s) 1-7
 --------------------------------------------------------------------------------
 do {
@@ -19,7 +19,7 @@ do {
                       email       => "philiprbrenan\@gmail.com",
                       icon        => "Striped Bass.jpg",
                       language    => "en",
-                      maximages   => 8,
+                      maxImages   => 8,
                       name        => "GoneFishing",
                       ordered     => "never",
                       rightInARow => 7,
@@ -32,9 +32,9 @@ do {
     }, "ParsedCmd"),
     error => 1,
     log => [
-      "\n2017-12-11 at 18:03:54 Generate AppaAppsPhotoApp version 20171205-1 philiprbrenan/GoneFishing/l/en\n",
-      "2017-12-11 at 18:03:56 Step: parseSource",
-      "2017-12-11 at 18:03:56 The app command name keyword is <b>=GoneFishing=</b> but it should be <b>=GoneFishing.l.en=</b>\n on line(s) 1-7",
+      "\n2017-12-11 at 18:04:41 Generate AppaAppsPhotoApp version 20171205-1 philiprbrenan/GoneFishing/l/en\n",
+      "2017-12-11 at 18:04:45 Step: parseSource",
+      "2017-12-11 at 18:04:45 The app command name keyword is <b>=GoneFishing=</b> but it should be <b>=GoneFishing.l.en=</b>\n on line(s) 1-7",
     ],
     parsedCmds => [
       'fix',
