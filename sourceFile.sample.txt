@@ -1,4 +1,4 @@
-app GoneFishing   = Gone Fishing in the USA 
+app GoneFishing.l.en   = Gone Fishing in the USA 
   maximages = 6
   icon      = https://avatars1.githubusercontent.com/u/7548378?v=4
   author    = philiprbrenan
