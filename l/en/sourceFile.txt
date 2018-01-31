@@ -3,7 +3,8 @@ app GoneFishing.l.en  = Gone Fishing in the USA
   author = philiprbrenan
   maximages = 8
   speakers = Amy
-  version = 2
+  imageFormat = jpx
+  version = 3
   email  = philiprbrenan@gmail.com
 # email  = bill.gearhart@ryffine.com
 
