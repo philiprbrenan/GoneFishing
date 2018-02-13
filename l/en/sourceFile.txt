@@ -12,8 +12,10 @@ app GoneFishing.l.en  = Gone Fishing in the USA
 photo Shark.Blacktip = Blacktip shark
   url = Blacktip shark.JPG
   wiki =  https://en.wikipedia.org/wiki/Blacktip_shark
+  sound = Monday
 
 fact Shark.Blacktip.1 = Carcharhinus limbatus
+     sound = Tuesday
      aspect=latin
 fact Shark.Blacktip.2 = Galveston
      aspect=location
