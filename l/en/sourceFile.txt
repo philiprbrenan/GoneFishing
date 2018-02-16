@@ -2,7 +2,7 @@ app GoneFishing.l.en  = Gone Fishing in the USA
   logoText = Go Fish
   icon   = Striped Bass.jpg
   author = philiprbrenan
-  maximages = 8
+  maximages  = 8
   email  = philiprbrenan@gmail.com
 # email  = bill.gearhart@ryffine.com
 
