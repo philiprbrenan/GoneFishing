@@ -26,7 +26,7 @@ fact Shark.Blacktip.5 = Timid yet will attack people for food
 fact Shark.Blacktip.6 = Makes spinning leaps when attacking schools of small fish
 
 
-#  Details of photo Brown Trout.jpg
+#   Details of photo Brown Trout.jpg
 #---------------------------------
 photo Trout.Brown = Brown Trout
   url  = Brown Trout.jpg
