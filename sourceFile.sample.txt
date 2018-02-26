@@ -1,62 +1,54 @@
-app GoneFishing.l.en   = Gone Fishing in the USA 
+app GoneFishing   = Gone Fishing in the USA 
   maximages = 6
   icon      = https://avatars1.githubusercontent.com/u/7548378?v=4
   author    = philiprbrenan
   email     = philiprbrenan@gmail.com
 
 
-# Details of photo AddImagesToThisFolder
-photo AddImagesToThisFolder = Title of AddImagesToThisFolder
-  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/AddImagesToThisFolder
+# Details of photo Blacktip shark
+photo Blacktip_shark = Title of Blacktip shark
+  url = Blacktip shark.JPG
 
-fact AddImagesToThisFolder.1 = First fact about AddImagesToThisFolder
-fact AddImagesToThisFolder.2 = Another fact about AddImagesToThisFolder
-
-
-# Details of photo Blacktip shark.JPG
-photo Blacktip shark.JPG = Title of Blacktip shark.JPG
-  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Blacktip%20shark.JPG
-
-fact Blacktip shark.JPG.1 = First fact about Blacktip shark.JPG
-fact Blacktip shark.JPG.2 = Another fact about Blacktip shark.JPG
+fact Blacktip_shark.1 = First fact about Blacktip shark
+fact Blacktip_shark.2 = Another fact about Blacktip shark
 
 
-# Details of photo Brown Trout.jpg
-photo Brown Trout.jpg = Title of Brown Trout.jpg
-  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Brown%20Trout.jpg
+# Details of photo Brown Trout
+photo Brown_Trout = Title of Brown Trout
+  url = Brown Trout.jpg
 
-fact Brown Trout.jpg.1 = First fact about Brown Trout.jpg
-fact Brown Trout.jpg.2 = Another fact about Brown Trout.jpg
-
-
-# Details of photo Jack Crevalle.JPG
-photo Jack Crevalle.JPG = Title of Jack Crevalle.JPG
-  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Jack%20Crevalle.JPG
-
-fact Jack Crevalle.JPG.1 = First fact about Jack Crevalle.JPG
-fact Jack Crevalle.JPG.2 = Another fact about Jack Crevalle.JPG
+fact Brown_Trout.1 = First fact about Brown Trout
+fact Brown_Trout.2 = Another fact about Brown Trout
 
 
-# Details of photo Smallmouth Bass.jpg
-photo Smallmouth Bass.jpg = Title of Smallmouth Bass.jpg
-  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Smallmouth%20Bass.jpg
+# Details of photo Jack Crevalle
+photo Jack_Crevalle = Title of Jack Crevalle
+  url = Jack Crevalle.JPG
 
-fact Smallmouth Bass.jpg.1 = First fact about Smallmouth Bass.jpg
-fact Smallmouth Bass.jpg.2 = Another fact about Smallmouth Bass.jpg
-
-
-# Details of photo SpeckledTrout.jpg
-photo SpeckledTrout.jpg = Title of SpeckledTrout.jpg
-  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/SpeckledTrout.jpg
-
-fact SpeckledTrout.jpg.1 = First fact about SpeckledTrout.jpg
-fact SpeckledTrout.jpg.2 = Another fact about SpeckledTrout.jpg
+fact Jack_Crevalle.1 = First fact about Jack Crevalle
+fact Jack_Crevalle.2 = Another fact about Jack Crevalle
 
 
-# Details of photo Striped Bass.jpg
-photo Striped Bass.jpg = Title of Striped Bass.jpg
-  url = https://raw.githubusercontent.com/philiprbrenan/GoneFishing/master/images/Striped%20Bass.jpg
+# Details of photo Smallmouth Bass
+photo Smallmouth_Bass = Title of Smallmouth Bass
+  url = Smallmouth Bass.jpg
 
-fact Striped Bass.jpg.1 = First fact about Striped Bass.jpg
-fact Striped Bass.jpg.2 = Another fact about Striped Bass.jpg
+fact Smallmouth_Bass.1 = First fact about Smallmouth Bass
+fact Smallmouth_Bass.2 = Another fact about Smallmouth Bass
+
+
+# Details of photo SpeckledTrout
+photo SpeckledTrout = Title of SpeckledTrout
+  url = SpeckledTrout.jpg
+
+fact SpeckledTrout.1 = First fact about SpeckledTrout
+fact SpeckledTrout.2 = Another fact about SpeckledTrout
+
+
+# Details of photo Striped Bass
+photo Striped_Bass = Title of Striped Bass
+  url = Striped Bass.jpg
+
+fact Striped_Bass.1 = First fact about Striped Bass
+fact Striped_Bass.2 = Another fact about Striped Bass
 
