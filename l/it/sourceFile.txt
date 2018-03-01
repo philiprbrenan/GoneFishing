@@ -4,8 +4,7 @@ app    GoneFishing.l.it  =  Gone Fishing in the USA in Italian
        icon                   =  Striped Bass.jpg                                                       
        maxImages              =                                                                      8  
        version                =                                                                      2  
-       language               =  it                                                                     
-       generate               =  no                                                                     
+       language               =  it                                                                                                                                        
        
 photo  Shark.Blacktip         =  Squalo Blacktip                                                        
        url                    =  Blacktip shark.JPG                                                     
