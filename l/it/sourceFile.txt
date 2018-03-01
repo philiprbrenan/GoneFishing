@@ -1,0 +1,126 @@
+app    GoneFishing.l.en.l.it  =  Gone Fishing in the USA in Italian                                     
+       author                 =  philiprbrenan                                                          
+       email                  =  philiprbrenan@gmail.com                                                
+       icon                   =  Striped Bass.jpg                                                       
+       maxImages              =                                                                      8  
+       version                =                                                                      2  
+       language               =  it                                                                     
+       generate               =  no                                                                     
+       
+photo  Shark.Blacktip         =  Squalo Blacktip                                                        
+       url                    =  Blacktip shark.JPG                                                     
+       wiki                   =  https://en.wikipedia.org/wiki/Blacktip_shark                           
+       
+fact   Shark.Blacktip.1       =  Carcharhinus limbatus                                                  
+       aspect                 =  latin                                                                  
+       
+fact   Shark.Blacktip.2       =  Galveston                                                              
+       aspect                 =  location                                                               
+       
+fact   Shark.Blacktip.3       =  Alla deriva una morta menzogna                                         
+       aspect                 =  method                                                                 
+       
+fact   Shark.Blacktip.4       =  Quaranta chili                                                         
+       aspect                 =  weight                                                                 
+       
+fact   Shark.Blacktip.5       =  Timido attaccherà ancora le persone per il cibo                        
+       
+fact   Shark.Blacktip.6       =  Fa balzi rotanti quando attacca scuole di piccoli pesci                
+       
+photo  Trout.Brown            =  Trota fario                                                            
+       url                    =  Brown Trout.jpg                                                        
+       wiki                   =  https://en.wikipedia.org/wiki/Brown_trout                              
+       
+fact   Trout                  =  Salmo trutta                                                           
+       aspect                 =  latin                                                                  
+       
+fact   Trout.Brown.1          =  Piccolo fiume Juniata vicino ad Alessandria                            
+       aspect                 =  location                                                               
+       
+fact   Trout.Brown.2          =  La taglia 12 dei caddis da far capolino vola                           
+       aspect                 =  method                                                                 
+       
+fact   Trout.Brown.3          =  Due sterline                                                           
+       aspect                 =  weight                                                                 
+       
+photo  Jack.Crevalle          =  Jack Crevalle                                                          
+       url                    =  Jack Crevalle.JPG                                                      
+       wiki                   =  https://en.wikipedia.org/wiki/Crevalle_jack                            
+       
+fact   Jack.Crevalle.1        =  Ippopotami Caranx                                                      
+       aspect                 =  latin                                                                  
+       
+fact   Jack.Crevalle.2        =  Galveston                                                              
+       aspect                 =  location                                                               
+       
+fact   Jack.Crevalle.3        =  Preso alla deriva una morta menzogna                                   
+       aspect                 =  method                                                                 
+       
+fact   Jack.Crevalle.4        =  Quindici sterline                                                      
+       aspect                 =  weight                                                                 
+       
+fact   Jack.Crevalle.5        =  La pinna caudale è fortemente biforcuta                                
+       
+fact   Jack.Crevalle.6        =  Palpebra adiposa ben sviluppata                                        
+       
+photo  Bass.Smallmouth        =  Smallmouth Bass                                                        
+       url                    =  Smallmouth Bass.jpg                                                    
+       wiki                   =  https://en.wikipedia.org/wiki/Smallmouth_bass                          
+       
+fact   Bass.Smallmouth.1      =  Micropterus dolomieu                                                   
+       aspect                 =  latin                                                                  
+       
+fact   Bass.Smallmouth.2      =  Fiume Allegheny a Tionesta                                             
+       aspect                 =  location                                                               
+       
+fact   Bass.Smallmouth.3      =  Jerk esca                                                              
+       aspect                 =  method                                                                 
+       
+fact   Bass.Smallmouth.4      =  Tre sterline                                                           
+       aspect                 =  weight                                                                 
+       
+fact   Bass.Smallmouth.5      =  Nativo del Mississippi                                                 
+       aspect                 =  location                                                               
+       
+fact   Bass.Smallmouth.6      =  Trapiantato attraverso gli Stati Uniti in secchi e botti per ferrovia  
+       aspect                 =  strangeButTrue                                                         
+       
+photo  Trout.Speckled         =  Trota macchiata                                                        
+       url                    =  SpeckledTrout.jpg                                                      
+       wiki                   =  https://en.wikipedia.org/wiki/Brown_trout                              
+       
+fact   Trout.Speckled.1       =  South Platte River vicino a Lake George                                
+       aspect                 =  location                                                               
+       
+fact   Trout.Speckled.2       =  Taglia 20 rs2 fly                                                      
+       aspect                 =  method                                                                 
+       
+fact   Trout.Speckled.3       =  Sei sterline                                                           
+       aspect                 =  weight                                                                 
+       
+fact   Trout.Speckled.4       =  Strettamente legato al salmone atlantico                               
+       
+fact   Trout.Speckled.5       =  Alta dipendenza dietetica dagli insetti                                
+       
+photo  Bass.Striped           =  Bassi a strisce                                                        
+       url                    =  Striped Bass.jpg                                                       
+       wiki                   =  https://en.wikipedia.org/wiki/Striped_bass                             
+       
+fact   Bass.Striped.1         =  Morone saxatilis                                                       
+       aspect                 =  latin                                                                  
+       
+fact   Bass.Striped.2         =  baia di Chesapeake                                                     
+       aspect                 =  location                                                               
+       
+fact   Bass.Striped.3         =  Shad plastica su una testa di piombo                                   
+       aspect                 =  method                                                                 
+       
+fact   Bass.Striped.4         =  Venti chili                                                            
+       aspect                 =  weight                                                                 
+       
+fact   Bass.Striped.5         =  Pesce di stato del Maryland                                            
+       aspect                 =  location                                                               
+       
+fact   Bass.Striped.6         =  Senza sbocco sul mare nel Grand Lake, in Nuova Scozia                  
+       aspect                 =  strangeButTrue location                                                
+       
