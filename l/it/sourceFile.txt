@@ -1,4 +1,4 @@
-app    GoneFishing.l.en.l.it  =  Gone Fishing in the USA in Italian                                     
+app    GoneFishing.l.it  =  Gone Fishing in the USA in Italian                                     
        author                 =  philiprbrenan                                                          
        email                  =  philiprbrenan@gmail.com                                                
        icon                   =  Striped Bass.jpg                                                       
