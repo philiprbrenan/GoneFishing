@@ -1,4 +1,4 @@
-app    GoneFishing.l.pt   =  Gone Fishing in the USA in Portuguese                        
+app    GoneFishing.l.pt   =  Fui pescar nos EUA                                           
        author             =  philiprbrenan                                                
        email              =  philiprbrenan@gmail.com                                      
        help               =  http://www.theguardian.com                                   
