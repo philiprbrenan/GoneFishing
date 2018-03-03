@@ -1,4 +1,4 @@
-app    GoneFishing.l.ro   =  Gone Fishing in the USA in Romanian                                   
+app    GoneFishing.l.ro   =  Plecat în SUA                                                         
        author             =  philiprbrenan                                                         
        email              =  philiprbrenan@gmail.com                                               
        help               =  http://www.theguardian.com                                            
