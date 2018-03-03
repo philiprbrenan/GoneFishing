@@ -1,4 +1,4 @@
-app    GoneFishing.l.es   =  Gone Fishing in the USA in Spanish                                           
+app    GoneFishing.l.es   =  Ido de pesca en los Estados Unidos                                           
        author             =  philiprbrenan                                                                
        email              =  philiprbrenan@gmail.com                                                      
        help               =  http://www.theguardian.com                                                   
