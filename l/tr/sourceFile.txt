@@ -1,4 +1,4 @@
-app    GoneFishing.l.tr   =  Gone Fishing in the USA in Turkish                     
+app    GoneFishing.l.tr   =  Amerika'da balık tutmak                                
        author             =  philiprbrenan                                          
        email              =  philiprbrenan@gmail.com                                
        help               =  http://www.theguardian.com                             
