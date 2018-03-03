@@ -1,4 +1,4 @@
-app    GoneFishing.l.de   =  Gone Fishing in the USA in German                                       
+app    GoneFishing.l.de   =  Angeln in den USA                                                       
        author             =  philiprbrenan                                                           
        email              =  philiprbrenan@gmail.com                                                 
        help               =  http://www.theguardian.com                                              
