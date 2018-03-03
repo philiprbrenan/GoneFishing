@@ -1,4 +1,4 @@
-app    GoneFishing.l.nb   =  Gone Fishing in the USA in Norwegian                       
+app    GoneFishing.l.nb   =  Gått fiske i usa                                           
        author             =  philiprbrenan                                              
        email              =  philiprbrenan@gmail.com                                    
        help               =  http://www.theguardian.com                                 
