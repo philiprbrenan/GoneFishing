@@ -1,4 +1,4 @@
-app    GoneFishing.l.is   =  Gone Fishing in the USA in Icelandic                          
+app    GoneFishing.l.is   =  Farinn að veiða í Bandaríkjunum                               
        author             =  philiprbrenan                                                 
        email              =  philiprbrenan@gmail.com                                       
        help               =  http://www.theguardian.com                                    
