@@ -1,4 +1,4 @@
-app    GoneFishing.l.sv   =  Gone Fishing in the USA in Swedish                     
+app    GoneFishing.l.sv   =  Gått fiske i usa                                       
        author             =  philiprbrenan                                          
        email              =  philiprbrenan@gmail.com                                
        help               =  http://www.theguardian.com                             
