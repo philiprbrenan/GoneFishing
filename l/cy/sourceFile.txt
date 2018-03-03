@@ -1,4 +1,4 @@
-app    GoneFishing.l.cy   =  Gone Fishing in the USA in Welsh                                     
+app    GoneFishing.l.cy   =  Wedi pysgota yn y usa                                                
        author             =  philiprbrenan                                                        
        email              =  philiprbrenan@gmail.com                                              
        help               =  http://www.theguardian.com                                           
