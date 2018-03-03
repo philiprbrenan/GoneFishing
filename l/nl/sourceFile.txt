@@ -1,4 +1,4 @@
-app    GoneFishing.l.nl   =  Gone Fishing in the USA in Dutch                                    
+app    GoneFishing.l.nl   =  Gegaan vissen in de VS.                                             
        author             =  philiprbrenan                                                       
        email              =  philiprbrenan@gmail.com                                             
        help               =  http://www.theguardian.com                                          
