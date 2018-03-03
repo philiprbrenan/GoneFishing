@@ -1,4 +1,4 @@
-app    GoneFishing.l.da   =  Gone Fishing in the USA in Danish                          
+app    GoneFishing.l.da   =  Gået fiskeri i usa                                         
        author             =  philiprbrenan                                              
        email              =  philiprbrenan@gmail.com                                    
        help               =  http://www.theguardian.com                                 
