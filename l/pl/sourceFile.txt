@@ -1,4 +1,4 @@
-app    GoneFishing.l.pl   =  Gone Fishing in the USA in Polish                      
+app    GoneFishing.l.pl   =  Poszedł na ryby w USA                                  
        author             =  philiprbrenan                                          
        email              =  philiprbrenan@gmail.com                                
        help               =  http://www.theguardian.com                             
