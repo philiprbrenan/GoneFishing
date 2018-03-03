@@ -1,4 +1,4 @@
-app    GoneFishing.l.it   =  Gone Fishing in the USA in Italian                                     
+app    GoneFishing.l.it   =  Andato a pescare negli Stati Uniti                                     
        author             =  philiprbrenan                                                          
        email              =  philiprbrenan@gmail.com                                                
        help               =  http://www.theguardian.com                                             
