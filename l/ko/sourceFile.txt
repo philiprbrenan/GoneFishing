@@ -1,4 +1,4 @@
-app    GoneFishing.l.ko   =  Gone Fishing in the USA in Korean              
+app    GoneFishing.l.ko   =  미국에서 낚시를 갔다.                                   
        author             =  philiprbrenan                                  
        email              =  philiprbrenan@gmail.com                        
        help               =  http://www.theguardian.com                     
