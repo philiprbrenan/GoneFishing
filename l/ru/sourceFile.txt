@@ -1,4 +1,4 @@
-app    GoneFishing.l.ru   =  Gone Fishing in the USA in Russian                             
+app    GoneFishing.l.ru   =  Рыбалка в США                                                  
        author             =  philiprbrenan                                                  
        email              =  philiprbrenan@gmail.com                                        
        help               =  http://www.theguardian.com                                     
