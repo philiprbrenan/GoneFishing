@@ -1,4 +1,4 @@
-app    GoneFishing.l.ja   =  Gone Fishing in the USA in Japanese            
+app    GoneFishing.l.ja   =  アメリカで釣りに行った                                    
        author             =  philiprbrenan                                  
        email              =  philiprbrenan@gmail.com                        
        help               =  http://www.theguardian.com                     
