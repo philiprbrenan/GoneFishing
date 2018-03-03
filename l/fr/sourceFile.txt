@@ -1,4 +1,4 @@
-app    GoneFishing.l.fr   =  Gone Fishing in the USA in French                                           
+app    GoneFishing.l.fr   =  Allé pêcher aux Etats-Unis                                                  
        author             =  philiprbrenan                                                               
        email              =  philiprbrenan@gmail.com                                                     
        help               =  http://www.theguardian.com                                                  
