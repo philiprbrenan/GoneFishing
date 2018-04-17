@@ -1,4 +1,4 @@
-app GoneFishing  =  Gone Fishing in the USA
+app GoneFishing  = Gone Fishing in the USA
   logoText = Go Fish
   icon   = Striped Bass.jpg
   author = philiprbrenan
