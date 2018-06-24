@@ -1,5 +1,5 @@
 app GoneFishing  =  Gone Fishing in the USA
-  logoText    = Go Fish
+  logoText     = Go Fish
   icon   = Striped Bass.jpg
   author = philiprbrenan
   help     = http://www.theguardian.com
