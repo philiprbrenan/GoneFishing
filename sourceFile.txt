@@ -5,6 +5,7 @@ app GoneFishing  =  Gone Fishing in the USA
   help     = http://www.theguardian.com
   maximages  =  8
   email  = philiprbrenan@gmail.com
+  rightInARow = 3
 # email  = bill.gearhart@ryffine.com  
   rightInARow = 3
 
