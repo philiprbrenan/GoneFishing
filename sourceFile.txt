@@ -6,7 +6,7 @@ app GoneFishing  = Gone Fishing in the USA
   maximages  =  8
   email  = philiprbrenan@gmail.com
 # email  = bill.gearhart@ryffine.com 
-  menu   = page
+  menu  = page
   rightInARow = 3
 
 # Details of photo Blacktip shark.JPG
