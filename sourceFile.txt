@@ -13,7 +13,7 @@ app GoneFishing  = Gone Fishing in the USA
 # Details of photo Blacktip shark.JPG
 #------------------------------------
 photo Shark.Blacktip = Blacktip shark
-  url = Blacktip shark.JPG2
+  url = Blacktip shark.JPG
   wiki =  https://en.wikipedia.org/wiki/Blacktip_shark
   sounds = Monday Tuesday.mp3
 
