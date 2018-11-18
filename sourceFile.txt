@@ -1,6 +1,6 @@
 app GoneFishing  = Gone Fishing in the USA
   logoText       = Go Fish
-  icon     = Striped Bass.jpg
+  icon           = Striped Bass.jpg
   author = philiprbrenan
   help     = http://www.theguardian.com
   maximages  =  8
