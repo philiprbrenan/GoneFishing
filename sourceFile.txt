@@ -7,7 +7,7 @@ app GoneFishing  = Gone Fishing in the USA
   email  = philiprbrenan@gmail.com
 # email  = bill.gearhart@ryffine.com 
   menu  = page
-  musicSpeechVolume = 200
+  musicSpeechVolume = 300
   rightInARow = 3
 
 # Details of photo Blacktip shark.JPG
