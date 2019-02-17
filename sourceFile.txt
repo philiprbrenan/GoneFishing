@@ -9,6 +9,7 @@ app GoneFishing  = Gone Fishing in the USA
   menu  = page
   musicSpeechVolume = 300
   rightInARow = 3
+  maxImages = 2
 
 # Details of photo Blacktip shark.JPG
 #------------------------------------
