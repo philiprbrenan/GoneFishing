@@ -3,7 +3,6 @@ app GoneFishing  = Gone Fishing in the USA
   icon           = Striped Bass.jpg
   author   = philiprbrenan
   help     = http://www.theguardian.com
-  maximages  =  8
   email  = philiprbrenan@gmail.com
 # email  = bill.gearhart@ryffine.com 
   menu  = page
