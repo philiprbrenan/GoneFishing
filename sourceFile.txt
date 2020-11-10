@@ -1,7 +1,7 @@
 app GoneFishing  = Gone Fishing in the USA
   logoText       = Go Fish
   icon           = Striped Bass.jpg
-  author   = philiprbrenan
+  author    = philiprbrenan
   help     = http://www.theguardian.com
   email  = philiprbrenan@gmail.com
 # email  = bill.gearhart@ryffine.com 
